@@ -21,6 +21,11 @@
       "archive": "Vervada-s-enhanced-plants.zip",
       "project_url": "https://modrinth.com/resourcepack/3d-plants",
       "version": "1.0.6"
+    },
+    "yojos_lushpacc_10": {
+      "archive": "A-YoJos-LushPacc!V10.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/3d-cave-vines-3d-hanging-roots/",
+      "version": "10"
     }
   },
   "files": [
@@ -183,6 +188,10 @@
     {
       "path": "assets/minecraft/models/block/anvil.json",
       "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/azalea.json",
+      "source": "yojos_lushpacc_10"
     },
     {
       "path": "assets/minecraft/models/block/azure_bluet.json",
@@ -413,6 +422,10 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/flowering_azalea.json",
+      "source": "yojos_lushpacc_10"
+    },
+    {
       "path": "assets/minecraft/models/block/glow_lichen.json",
       "source": "wild_vanilla_1_0"
     },
@@ -538,6 +551,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_azalea_bush.json",
+      "source": "yojos_lushpacc_10"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_azure_bluet.json",
       "source": "wild_vanilla_1_0"
     },
@@ -588,6 +605,10 @@
     {
       "path": "assets/minecraft/models/block/potted_fern.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_flowering_azalea_bush.json",
+      "source": "yojos_lushpacc_10"
     },
     {
       "path": "assets/minecraft/models/block/potted_jungle_sapling.json",
@@ -810,6 +831,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/item/azalea.json",
+      "source": "yojos_lushpacc_10"
+    },
+    {
       "path": "assets/minecraft/models/item/azure_bluet.json",
       "source": "wild_vanilla_1_0"
     },
@@ -852,6 +877,10 @@
     {
       "path": "assets/minecraft/models/item/fern.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/flowering_azalea.json",
+      "source": "yojos_lushpacc_10"
     },
     {
       "path": "assets/minecraft/models/item/glow_lichen.json",
@@ -962,6 +991,18 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/azalea_plant.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
+      "path": "assets/minecraft/textures/block/azalea_side.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
+      "path": "assets/minecraft/textures/block/azalea_top.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
       "path": "assets/minecraft/textures/block/azure_bluet.png",
       "source": "wild_vanilla_1_0"
     },
@@ -976,6 +1017,10 @@
     {
       "path": "assets/minecraft/textures/block/brown_mushroom.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/chain_pot.png",
+      "source": "yojos_lushpacc_10"
     },
     {
       "path": "assets/minecraft/textures/block/cherry_sapling_blossom.png",
@@ -1024,6 +1069,18 @@
     {
       "path": "assets/minecraft/textures/block/flower_pot.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/flower_pots.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
+      "path": "assets/minecraft/textures/block/flowering_azalea_side.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
+      "path": "assets/minecraft/textures/block/flowering_azalea_top.png",
+      "source": "yojos_lushpacc_10"
     },
     {
       "path": "assets/minecraft/textures/block/glow_lichen.png",
@@ -1090,6 +1147,18 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/potted_azalea_bush_plant.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
+      "path": "assets/minecraft/textures/block/potted_azalea_bush_side.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
+      "path": "assets/minecraft/textures/block/potted_azalea_bush_top.png",
+      "source": "yojos_lushpacc_10"
+    },
+    {
       "path": "assets/minecraft/textures/block/red_mushroom.png",
       "source": "wild_vanilla_1_0"
     },
@@ -1104,6 +1173,10 @@
     {
       "path": "assets/minecraft/textures/block/rose.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/soil.png",
+      "source": "yojos_lushpacc_10"
     },
     {
       "path": "assets/minecraft/textures/block/sugarcane.png",

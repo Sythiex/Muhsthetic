@@ -11,8 +11,10 @@ smithing table, and stonecutter models, including damage, open, and charge
 variants. Vervada's enhanced plants 1.0.6 supplies big and small dripleaves,
 living and dead coral plants, mangrove propagules, the seven named tree saplings,
 weeping vines, and the corresponding potted saplings and propagules. Azaleas and
-young bamboo are outside this selection. Source packs target different Minecraft
-versions; use vanilla 1.21.1 when checking compatibility and dependencies.
+young bamboo are outside the Vervada selection. YoJos-LushPacc! 10 supplies azalea
+and flowering azalea models and textures, including their item and potted
+variants. Source packs target different Minecraft versions; use vanilla 1.21.1
+when checking compatibility and dependencies.
 
 ## Repository directories
 
@@ -48,6 +50,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Hellim's 3D Functional Blocks v1.0.zip`
 - Vervada's enhanced plants source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Vervada-s-enhanced-plants.zip`
+- YoJos-LushPacc! source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\A-YoJos-LushPacc!V10.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:

@@ -20,6 +20,7 @@ Current source releases:
 | [Better 3D](https://www.curseforge.com/minecraft/texture-packs/better-3d) | `8.1` | `Better 3D - v8.1.zip` |
 | [Hellim's 3D Functional Blocks](https://www.curseforge.com/minecraft/texture-packs/hellims-3d-functional-blocks) | `1.0` | `Hellim's 3D Functional Blocks v1.0.zip` |
 | [Vervada's enhanced plants](https://modrinth.com/resourcepack/3d-plants) | `1.0.6` | `Vervada-s-enhanced-plants.zip` |
+| [YoJos-LushPacc!](https://www.planetminecraft.com/texture-pack/3d-cave-vines-3d-hanging-roots/) | `10` | `A-YoJos-LushPacc!V10.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -48,6 +49,14 @@ shared parent is already overridden by the selected potted models. Their resolve
 model data is identical using the vanilla parent, avoiding changes to other
 potted plants. The new potted models use the compilation's existing flower-pot
 texture. `crimson_fungus_block.png` is included as a weeping-vine dependency.
+
+The YoJos-LushPacc! selection covers azalea, flowering azalea, and both potted
+variants: four block models, two item models, and eleven textures. All 17 files
+are copied unchanged, differ from vanilla 1.21.1, and were added without file
+collisions. Vanilla blockstates select the new models. The potted variants have
+their own pot geometry and use `flower_pots.png`, `soil.png`, and `chain_pot.png`;
+they do not need a shared flower-pot model replacement. Azalea leaf blocks are
+outside this selection.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
