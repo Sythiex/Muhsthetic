@@ -1,0 +1,8 @@
+{"variants":{"":
+[{"model":"minecraft:block/fern"},{"model":"minecraft:block/fern","y":90},
+{"model":"minecraft:block/fern","y":180},{"model":"minecraft:block/fern","y":270},
+
+{"model":"minecraft:item/fern"},{"model":"minecraft:item/fern","y":90},
+{"model":"minecraft:item/fern","y":180},{"model":"minecraft:item/fern","y":270}]
+}
+}

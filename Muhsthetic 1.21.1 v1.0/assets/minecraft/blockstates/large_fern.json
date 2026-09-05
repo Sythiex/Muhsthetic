@@ -1,0 +1,13 @@
+{"variants":{
+
+  "half=lower": 
+  [{"model":"minecraft:block/fern"},{"model":"minecraft:block/fern","y":90},
+  {"model":"minecraft:block/fern","y":180},{"model":"minecraft:block/fern","y":270}],
+
+  "half=upper":[{"model":"minecraft:block/fern_top"},{"model":"minecraft:block/fern_top","y":90},
+  {"model":"minecraft:block/fern_top","y":180},{"model":"minecraft:block/fern_top","y":270},
+
+  {"model":"minecraft:block/fern_top2"},{"model":"minecraft:block/fern_top2","y":90},
+  {"model":"minecraft:block/fern_top2","y":180},{"model":"minecraft:block/fern_top2","y":270}]
+}
+}

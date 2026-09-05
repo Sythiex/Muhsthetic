@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Compilation by §bSythiex§r",
+    "pack_format": 46,
+    "supported_formats": [16, 64],
+    "min_format": 16,
+    "max_format": 84
+  }
+}

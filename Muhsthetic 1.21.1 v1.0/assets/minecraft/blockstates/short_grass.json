@@ -1,0 +1,4 @@
+{"variants":{"":[{"model":"minecraft:block/short_grass"},{"model":"minecraft:block/short_grass","y":90,"weight":150},{"model":"minecraft:block/short_grass","y":180,"weight":150},{"model":"minecraft:block/short_grass","y":270,"weight":150},
+{"model":"minecraft:block/short_grass2","weight":150},{"model":"minecraft:block/short_grass2","y":90,"weight":150},{"model":"minecraft:block/short_grass2","y":180,"weight":150},{"model":"minecraft:block/short_grass2","y":270,"weight":150},
+{"model":"minecraft:block/short_grass_special"}
+]}}
