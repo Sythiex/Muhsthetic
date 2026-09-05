@@ -12,9 +12,19 @@ Each file refers to a source ID whose entry records the exact ZIP filename,
 project page URL, and source pack version. Source details are shared to avoid
 repeating them for every file.
 
-All current files originate from **Wild Vanilla 1.0**, distributed as
-`Wild_Vanilla v1.0 - 1.21.4.zip`:
-[Wild Vanilla project page](https://modrinth.com/resourcepack/wildvanilla).
+Current source releases:
+
+| Project | Version | Source ZIP |
+| --- | --- | --- |
+| [Wild Vanilla](https://modrinth.com/resourcepack/wildvanilla) | `1.0` | `Wild_Vanilla v1.0 - 1.21.4.zip` |
+| [Better 3D](https://www.curseforge.com/minecraft/texture-packs/better-3d) | `8.1` | `Better 3D - v8.1.zip` |
+
+The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
+and TNT, including their block state variants and item models. These models use
+vanilla textures. The source hay model is also copied to
+`assets/minecraft/models/block/hay_block_horizontal.json` so horizontal bales use
+the 3D geometry; its index entry records the original source path.
+
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
 

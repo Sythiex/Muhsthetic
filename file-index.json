@@ -6,6 +6,11 @@
       "archive": "Wild_Vanilla v1.0 - 1.21.4.zip",
       "project_url": "https://modrinth.com/resourcepack/wildvanilla",
       "version": "1.0"
+    },
+    "better_3d_8_1": {
+      "archive": "Better 3D - v8.1.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/better-3d",
+      "version": "8.1"
     }
   },
   "files": [
@@ -22,8 +27,16 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/blockstates/cake.json",
+      "source": "better_3d_8_1"
+    },
+    {
       "path": "assets/minecraft/blockstates/cobweb.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/composter.json",
+      "source": "better_3d_8_1"
     },
     {
       "path": "assets/minecraft/blockstates/cornflower.json",
@@ -142,8 +155,72 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/cake/cake_slice1.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cake/cake_slice2.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cake/cake_slice3.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cake/cake_slice4.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cake/cake_slice5.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cake/cake_slice6.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cake/cake.json",
+      "source": "better_3d_8_1"
+    },
+    {
       "path": "assets/minecraft/models/block/cobweb.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents_ready.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents1.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents2.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents3.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents4.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents5.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents6.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter_contents7.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/composter/composter.json",
+      "source": "better_3d_8_1"
     },
     {
       "path": "assets/minecraft/models/block/cornflower.json",
@@ -182,6 +259,14 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/end_portal_frame_filled.json",
+      "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/end_portal_frame.json",
+      "source": "better_3d_8_1"
+    },
+    {
       "path": "assets/minecraft/models/block/fern_top.json",
       "source": "wild_vanilla_1_0"
     },
@@ -208,6 +293,15 @@
     {
       "path": "assets/minecraft/models/block/hanging_roots.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/hay_block_horizontal.json",
+      "source": "better_3d_8_1",
+      "notes": "Copied unchanged from assets/minecraft/models/block/hay_block.json in the source ZIP to this path so vanilla 1.21.1 horizontal hay variants use the 3D model."
+    },
+    {
+      "path": "assets/minecraft/models/block/hay_block.json",
+      "source": "better_3d_8_1"
     },
     {
       "path": "assets/minecraft/models/block/lilac_bottom.json",
@@ -240,6 +334,10 @@
     {
       "path": "assets/minecraft/models/block/lily_pad4.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/loom.json",
+      "source": "better_3d_8_1"
     },
     {
       "path": "assets/minecraft/models/block/null.json",
@@ -426,6 +524,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/tnt.json",
+      "source": "better_3d_8_1"
+    },
+    {
       "path": "assets/minecraft/models/block/torchflower.json",
       "source": "wild_vanilla_1_0"
     },
@@ -470,8 +572,16 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/item/cake.json",
+      "source": "better_3d_8_1"
+    },
+    {
       "path": "assets/minecraft/models/item/cobweb.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/composter.json",
+      "source": "better_3d_8_1"
     },
     {
       "path": "assets/minecraft/models/item/cornflower.json",

@@ -4,8 +4,10 @@
 
 This repository contains a Minecraft Java resource pack compilation targeting
 **1.21.1**. The current selection from Wild Vanilla includes plants, fungi,
-cobwebs, lily pads, potted variants, and the menu panorama. The source archive
-targets 1.21.4; use vanilla 1.21.1 when checking compatibility and dependencies.
+cobwebs, lily pads, potted variants, and the menu panorama. Better 3D 8.1 supplies
+cake, composter, End Portal Frame, hay bale, loom, and TNT models. Source packs
+target different Minecraft versions; use vanilla 1.21.1 when checking
+compatibility and dependencies.
 
 ## Repository directories
 
@@ -35,6 +37,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks`
 - Wild Vanilla source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Wild_Vanilla v1.0 - 1.21.4.zip`
+- Better 3D source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Better 3D - v8.1.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
