@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "pack_root": "Muhsthetic 1.21.1 v1.0",
+  "sources": {
+    "wild_vanilla_1_0": {
+      "archive": "Wild_Vanilla v1.0 - 1.21.4.zip",
+      "project_url": "https://modrinth.com/resourcepack/wildvanilla",
+      "version": "1.0"
+    }
+  },
+  "files": [
+    {
+      "path": "assets/minecraft/blockstates/allium.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/blue_orchid.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/brown_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/cobweb.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/cornflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/crimson_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/dandelion.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/dead_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/fern.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/glow_lichen.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/grass.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/large_fern.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/lilac.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/lily_of_the_valley.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/lily_pad.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/oxeye_daisy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/peony.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/pitcher_plant.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/poppy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/red_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/rose_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/short_grass.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/sunflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/torchflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/warped_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/wither_rose.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/allium.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/allium2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/azure_bluet.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/big_fern_top.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/blue_orchid.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/brown_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/brown_mushroom1.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/cobweb.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/cornflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/crimson_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dandelion.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dandelion2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dandelion3.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_bush2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_bush3.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_bush4.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/fern_top.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/fern_top2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/fern.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/fern2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/glow_lichen.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/grass.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/hanging_roots.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lilac_bottom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lilac_top.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lily_of_the_valley.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lily_of_the_valley2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lily_pad.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lily_pad2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lily_pad3.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/lily_pad4.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/null.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/orange_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/oxeye_daisy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/oxeye_daisy2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/peony_bottom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/peony_top.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/pink_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/pitcher_plant_bottom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/pitcher_plant2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/poppy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_allium.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_azure_bluet.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_blue_orchid.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_brown_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cornflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_crimson_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_dandelion.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_dead_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_fern.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_lily_of_the_valley.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_orange_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_oxeye_daisy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_pink_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_poppy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_red_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_red_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_torchflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_warped_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_white_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_wither_rose.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/red_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/red_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/rose_bush_bottom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/rose_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/short_grass_special.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/short_grass.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/short_grass2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sugar_cane.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sunflower_bottom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sunflower_bottom2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sunflower_top.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sunflower_top2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sunflower_top3.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sunflower_top4.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/tall_grass_bottom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/tall_grass_top.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/torchflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/torchflower2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/warped_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/warped_fungus2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/white_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/wither_rose.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/wither_rose2.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/allium.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/azure_bluet.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/blue_orchid.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/brown_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/cobweb.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/cornflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/crimson_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/dandelion.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/dead_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/fern.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/glow_lichen.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/hanging_roots.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/large_fern.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/lilac.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/lily_of_the_valley.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/lily_pad.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/orange_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/oxeye_daisy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/peony.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/pink_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/pitcher_plant.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/poppy.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/red_mushroom.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/red_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/rose_bush.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/short_grass.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/sugar_cane.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/sunflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/tall_grass.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/torchflower.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/warped_fungus.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/white_tulip.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/wither_rose.json",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/allium_item.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/allium_stem.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/allium.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/azure_bluet.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/blue_orchid.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/brown_mushroom_old.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/brown_mushroom.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cobweb.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cornflower.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/crimson_fungus_emmissive.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/crimson_fungus.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/dandelion.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/dead_bush.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/fern.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/flower_pot.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/glow_lichen.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/grass.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/hanging_roots.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/lead_knot.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/lilac_upper.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/lily_of_the_valley.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/lily_pad.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/null.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/orange_tulip.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/oxeye_daisy.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/peony.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pink_tulip.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pitcher_plant.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/poppy.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/red_mushroom.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/red_tulip.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/rose_bush.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/rose.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/sugarcane.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/sunflower_top.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/tall_grass_top.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/torchflower.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/vanillaflower.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/warped_fungus_emmissive.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/warped_fungus.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/white_tulip.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wither_rose.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/gui/title/background/panorama_0.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/gui/title/background/panorama_1.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/gui/title/background/panorama_2.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/gui/title/background/panorama_3.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/gui/title/background/panorama_4.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/gui/title/background/panorama_5.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/item/allium.png",
+      "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/item/sugar_cane.png",
+      "source": "wild_vanilla_1_0"
+    }
+  ]
+}
