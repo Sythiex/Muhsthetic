@@ -36,6 +36,11 @@
       "archive": "3D Tables.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/tables-3d-heycronus",
       "version": "Aug 10, 2026"
+    },
+    "3d_amethysts_1": {
+      "archive": "3d-amethysts.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/3d-amethysts/",
+      "version": "1"
     }
   },
   "files": [
@@ -314,6 +319,10 @@
     {
       "path": "assets/minecraft/models/block/bubble_coral.json",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/budding_amethyst.json",
+      "source": "3d_amethysts_1"
     },
     {
       "path": "assets/minecraft/models/block/cactus_s.json",
@@ -1150,6 +1159,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/amethyst_block.png",
+      "source": "3d_amethysts_1"
+    },
+    {
       "path": "assets/minecraft/textures/block/azalea_plant.png",
       "source": "yojos_lushpacc_10"
     },
@@ -1196,6 +1209,10 @@
     {
       "path": "assets/minecraft/textures/block/brown_mushroom.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/budding_amethyst.png",
+      "source": "3d_amethysts_1"
     },
     {
       "path": "assets/minecraft/textures/block/cactus_3d.png",

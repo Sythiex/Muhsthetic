@@ -16,6 +16,8 @@ and flowering azalea models and textures, including their item and potted
 variants. xksp lush plants 3.2 supplies bamboo, cactus, ordinary vines, and potted
 bamboo/cactus models and textures. Tables 3D (Aug 10, 2026) supplies enchanting
 table and fletching table models and the enchanting table's side/top textures.
+3D Amethysts 1 supplies the budding amethyst model and the textures for block of
+amethyst and budding amethyst.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -59,6 +61,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\xksp-lush-plants-v3-2-e3480.zip`
 - Tables 3D source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\3D Tables.zip`
+- 3D Amethysts source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\3d-amethysts.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:

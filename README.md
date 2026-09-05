@@ -23,6 +23,7 @@ Current source releases:
 | [YoJos-LushPacc!](https://www.planetminecraft.com/texture-pack/3d-cave-vines-3d-hanging-roots/) | `10` | `A-YoJos-LushPacc!V10.zip` |
 | [xksp lush plants](https://www.planetminecraft.com/texture-pack/xksp-lush-plants/) | `3.2` | `xksp-lush-plants-v3-2-e3480.zip` |
 | [Tables 3D - Heycronus](https://www.curseforge.com/minecraft/texture-packs/tables-3d-heycronus) | `Aug 10, 2026` | `3D Tables.zip` |
+| [3D Amethysts](https://www.planetminecraft.com/texture-pack/3d-amethysts/) | `1` | `3d-amethysts.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -84,6 +85,15 @@ alias `#missing`. Static geometry checks place all of those faces inside adjoini
 model parts; they are not missing source image files. This upstream issue is
 recorded in the index, and the model is preserved unchanged. All other selected
 texture references resolve. Appearance has not been verified in-game.
+
+The 3D Amethysts selection contains three unchanged source files: the budding
+amethyst block model and textures for block of amethyst and budding amethyst.
+All three differ from vanilla 1.21.1 and were added without collisions. Vanilla
+blockstates and item models select these assets; block of amethyst retains its
+vanilla cube geometry. The source's separate amethyst buds and cluster assets
+are outside this selection and are not dependencies. Static checks found no
+missing references, incompatible model geometry, or effects on other blocks or
+items. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
