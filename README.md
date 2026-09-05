@@ -28,6 +28,7 @@ Current source releases:
 | [Refined Redstone](https://www.curseforge.com/minecraft/texture-packs/refined-redstone) | `1.2` | `Refined Redstone v1.2.zip` |
 | [Radiant Redstone](https://www.curseforge.com/minecraft/texture-packs/radiant-redstone) | `1.4` | `radiant-redstone.zip` |
 | [3D crops Revamped](https://modrinth.com/resourcepack/3d-crops) | `3` | `3D crops Revamped.zip` |
+| [Actually 3D Workbenches](https://www.curseforge.com/minecraft/texture-packs/actually-3d-workbenches) | `1.0` | `§f§lActually §6§l3D §r§2Workbenches§7.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -158,6 +159,18 @@ face of its ninth element, a stem, is fully enclosed by the adjoining cap in
 static geometry checks. This source issue is recorded in the index. All other
 face and particle texture references resolve, and the geometry passes 1.21.1
 static checks. Appearance has not been verified in-game.
+
+The Actually 3D Workbenches selection contains six unchanged source files for
+the Crafter: `crafter`, `crafter_crafting`, and `crafter_crafting_triggered` block
+models, plus `crafter_top_triggered.png`, `crafter_west.png`, and
+`crafter_west_triggered.png`. All six differ from vanilla 1.21.1 and were added
+without collisions. Vanilla's blockstate and item model select these assets;
+the vanilla `crafter_triggered` model inherits the new base geometry and applies
+its triggered textures. Static checks covered all 48 combinations of the 12
+orientations and crafting/triggered states, plus the inventory model. All face
+and particle texture references resolve, and the geometry passes 1.21.1 checks.
+Reference checks found effects only on the Crafter block and item; the existing
+crafting table is unaffected. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

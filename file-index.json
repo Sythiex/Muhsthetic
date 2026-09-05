@@ -61,6 +61,11 @@
       "archive": "3D crops Revamped.zip",
       "project_url": "https://modrinth.com/resourcepack/3d-crops",
       "version": "3"
+    },
+    "actually_3d_workbenches_1_0": {
+      "archive": "§f§lActually §6§l3D §r§2Workbenches§7.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/actually-3d-workbenches",
+      "version": "1.0"
     }
   },
   "files": [
@@ -463,6 +468,18 @@
     {
       "path": "assets/minecraft/models/block/cornflower.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/crafter_crafting_triggered.json",
+      "source": "actually_3d_workbenches_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/crafter_crafting.json",
+      "source": "actually_3d_workbenches_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/crafter.json",
+      "source": "actually_3d_workbenches_1_0"
     },
     {
       "path": "assets/minecraft/models/block/crafting_table.json",
@@ -1334,6 +1351,18 @@
     {
       "path": "assets/minecraft/textures/block/cornflower.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/crafter_top_triggered.png",
+      "source": "actually_3d_workbenches_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/crafter_west_triggered.png",
+      "source": "actually_3d_workbenches_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/crafter_west.png",
+      "source": "actually_3d_workbenches_1_0"
     },
     {
       "path": "assets/minecraft/textures/block/crimson_fungus_block.png",
