@@ -22,6 +22,7 @@ Current source releases:
 | [Vervada's enhanced plants](https://modrinth.com/resourcepack/3d-plants) | `1.0.6` | `Vervada-s-enhanced-plants.zip` |
 | [YoJos-LushPacc!](https://www.planetminecraft.com/texture-pack/3d-cave-vines-3d-hanging-roots/) | `10` | `A-YoJos-LushPacc!V10.zip` |
 | [xksp lush plants](https://www.planetminecraft.com/texture-pack/xksp-lush-plants/) | `3.2` | `xksp-lush-plants-v3-2-e3480.zip` |
+| [Tables 3D - Heycronus](https://www.curseforge.com/minecraft/texture-packs/tables-3d-heycronus) | `Aug 10, 2026` | `3D Tables.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -69,6 +70,20 @@ shoot keep their vanilla appearances. Vanilla 1.21.1 has no potted vine block.
 The potted models inherit vanilla's `flower_pot_cross` but supply their own
 geometry and pot textures. Reference checks found no effects on other blocks
 or items.
+
+The Tables 3D selection contains four unchanged source files: enchanting table
+and fletching table block models, plus the enchanting table's side and top
+textures. All four differ from vanilla 1.21.1 and were added without collisions.
+The three source fletching-table textures are byte-for-byte identical to vanilla
+and are omitted. Vanilla blockstates and item models select both new models;
+the enchanting table's animated book uses vanilla assets. Reference checks found
+no effects on other blocks or items.
+
+The source enchanting-table model retains 41 faces using the undefined texture
+alias `#missing`. Static geometry checks place all of those faces inside adjoining
+model parts; they are not missing source image files. This upstream issue is
+recorded in the index, and the model is preserved unchanged. All other selected
+texture references resolve. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
