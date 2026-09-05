@@ -27,6 +27,7 @@ Current source releases:
 | [Actually 3D Plants](https://modrinth.com/resourcepack/actually-3d-plants) | `1.1` | `§f§lActually §6§l3D §r§aPlants§7.zip` |
 | [Refined Redstone](https://www.curseforge.com/minecraft/texture-packs/refined-redstone) | `1.2` | `Refined Redstone v1.2.zip` |
 | [Radiant Redstone](https://www.curseforge.com/minecraft/texture-packs/radiant-redstone) | `1.4` | `radiant-redstone.zip` |
+| [3D crops Revamped](https://modrinth.com/resourcepack/3d-crops) | `3` | `3D crops Revamped.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -143,6 +144,20 @@ Vanilla 1.21.1 resolves their particle sprite to the missing texture, so breakin
 particles are expected to show that texture. This source issue is preserved and
 recorded in the index. All face texture references resolve, and the geometry
 passes 1.21.1 static checks. Appearance has not been verified in-game.
+
+The 3D crops Revamped selection contains eight unchanged source files for Nether
+Wart: three growth-stage models and five textures. All eight differ from vanilla
+1.21.1 and were added without collisions. Vanilla's blockstate selects stage 0
+at age 0, stage 1 at ages 1–2, and stage 2 at age 3. The source blockstate is
+omitted because it differs only in formatting and omitted `minecraft:` model
+namespaces. The Nether Wart item uses vanilla assets. Static checks covered all
+four ages and found no effects on other blocks or items.
+
+The mature model retains one face referencing undefined `#missing`: the upward
+face of its ninth element, a stem, is fully enclosed by the adjoining cap in
+static geometry checks. This source issue is recorded in the index. All other
+face and particle texture references resolve, and the geometry passes 1.21.1
+static checks. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

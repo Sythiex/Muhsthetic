@@ -56,6 +56,11 @@
       "archive": "radiant-redstone.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/radiant-redstone",
       "version": "1.4"
+    },
+    "3d_crops_revamped_3": {
+      "archive": "3D crops Revamped.zip",
+      "project_url": "https://modrinth.com/resourcepack/3d-crops",
+      "version": "3"
     }
   },
   "files": [
@@ -636,6 +641,19 @@
     {
       "path": "assets/minecraft/models/block/nether_sprouts.json",
       "source": "actually_3d_plants_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/nether_wart_stage0.json",
+      "source": "3d_crops_revamped_3"
+    },
+    {
+      "path": "assets/minecraft/models/block/nether_wart_stage1.json",
+      "source": "3d_crops_revamped_3"
+    },
+    {
+      "path": "assets/minecraft/models/block/nether_wart_stage2.json",
+      "source": "3d_crops_revamped_3",
+      "notes": "Copied unchanged. The source has one face using undefined #missing: the upward face of the ninth element, a stem, is fully enclosed by its adjoining cap in static geometry checks."
     },
     {
       "path": "assets/minecraft/models/block/null.json",
@@ -1400,6 +1418,26 @@
     {
       "path": "assets/minecraft/textures/block/lily_pad.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/nether_wart_large.png",
+      "source": "3d_crops_revamped_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/nether_wart_medium0.png",
+      "source": "3d_crops_revamped_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/nether_wart_medium1.png",
+      "source": "3d_crops_revamped_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/nether_wart_small0.png",
+      "source": "3d_crops_revamped_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/nether_wart_small1.png",
+      "source": "3d_crops_revamped_3"
     },
     {
       "path": "assets/minecraft/textures/block/null.png",
