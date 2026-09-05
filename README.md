@@ -24,6 +24,7 @@ Current source releases:
 | [xksp lush plants](https://www.planetminecraft.com/texture-pack/xksp-lush-plants/) | `3.2` | `xksp-lush-plants-v3-2-e3480.zip` |
 | [Tables 3D - Heycronus](https://www.curseforge.com/minecraft/texture-packs/tables-3d-heycronus) | `Aug 10, 2026` | `3D Tables.zip` |
 | [3D Amethysts](https://www.planetminecraft.com/texture-pack/3d-amethysts/) | `1` | `3d-amethysts.zip` |
+| [Actually 3D Plants](https://modrinth.com/resourcepack/actually-3d-plants) | `1.1` | `§f§lActually §6§l3D §r§aPlants§7.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -94,6 +95,16 @@ vanilla cube geometry. The source's separate amethyst buds and cluster assets
 are outside this selection and are not dependencies. Static checks found no
 missing references, incompatible model geometry, or effects on other blocks or
 items. Appearance has not been verified in-game.
+
+The Actually 3D Plants selection contains three unchanged source files: Nether
+Sprouts and potted warped roots block models, plus `warped_roots_pot.png`. All
+three differ from vanilla 1.21.1 and were added without collisions. Vanilla
+blockstates select both models. The models use vanilla Nether Sprouts and dirt
+textures and the compilation's existing flower-pot texture. Item appearances
+and regular warped roots remain unchanged; regular warped roots are reserved
+for a later source. Static checks found no missing references,
+incompatible model geometry, or effects on other blocks or items. Appearance
+has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

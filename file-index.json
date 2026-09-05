@@ -41,6 +41,11 @@
       "archive": "3d-amethysts.zip",
       "project_url": "https://www.planetminecraft.com/texture-pack/3d-amethysts/",
       "version": "1"
+    },
+    "actually_3d_plants_1_1": {
+      "archive": "§f§lActually §6§l3D §r§aPlants§7.zip",
+      "project_url": "https://modrinth.com/resourcepack/actually-3d-plants",
+      "version": "1.1"
     }
   },
   "files": [
@@ -615,6 +620,10 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/nether_sprouts.json",
+      "source": "actually_3d_plants_1_1"
+    },
+    {
       "path": "assets/minecraft/models/block/null.json",
       "source": "wild_vanilla_1_0"
     },
@@ -817,6 +826,10 @@
     {
       "path": "assets/minecraft/models/block/potted_warped_fungus.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_warped_roots.json",
+      "source": "actually_3d_plants_1_1"
     },
     {
       "path": "assets/minecraft/models/block/potted_white_tulip.json",
@@ -1457,6 +1470,10 @@
     {
       "path": "assets/minecraft/textures/block/warped_fungus.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/warped_roots_pot.png",
+      "source": "actually_3d_plants_1_1"
     },
     {
       "path": "assets/minecraft/textures/block/white_tulip.png",
