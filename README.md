@@ -25,6 +25,7 @@ Current source releases:
 | [Tables 3D - Heycronus](https://www.curseforge.com/minecraft/texture-packs/tables-3d-heycronus) | `Aug 10, 2026` | `3D Tables.zip` |
 | [3D Amethysts](https://www.planetminecraft.com/texture-pack/3d-amethysts/) | `1` | `3d-amethysts.zip` |
 | [Actually 3D Plants](https://modrinth.com/resourcepack/actually-3d-plants) | `1.1` | `§f§lActually §6§l3D §r§aPlants§7.zip` |
+| [Refined Redstone](https://www.curseforge.com/minecraft/texture-packs/refined-redstone) | `1.2` | `Refined Redstone v1.2.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -105,6 +106,26 @@ and regular warped roots remain unchanged; regular warped roots are reserved
 for a later source. Static checks found no missing references,
 incompatible model geometry, or effects on other blocks or items. Appearance
 has not been verified in-game.
+
+The Refined Redstone selection contains 19 unchanged source files: observer
+off/on models, normal and sticky piston head models, 12 observer textures, and
+three piston textures (`piston_arm.png`, `piston_bottom.png`, and
+`piston_side_sticky.png`). All 19 differ from vanilla 1.21.1 and were added without
+collisions. Vanilla blockstates and item models select the replacements. Piston
+bases and inventory models use the new bottom texture; the source supplies no
+replacement base geometry or short piston heads, so the short heads used during
+movement retain their vanilla appearance. Static checks covered all 60 block
+state variants and found no effects on other blocks or items.
+
+The powered observer uses `light_emission` on 13 overlay elements. This field was
+introduced in [Minecraft 1.21.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-2),
+so these overlays do not become full-bright in vanilla 1.21.1. The source ZIP has
+no OptiFine emissive configuration to import. The same model contains 10 faces
+using undefined `#missing`: eight have zero area, and two are inward-facing
+backs of the eye overlays immediately in front of the solid body. These source
+limitations are recorded in the index; all other selected texture references
+resolve, and the geometry passes 1.21.1 static checks. Appearance and piston
+movement have not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

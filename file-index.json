@@ -46,6 +46,11 @@
       "archive": "§f§lActually §6§l3D §r§aPlants§7.zip",
       "project_url": "https://modrinth.com/resourcepack/actually-3d-plants",
       "version": "1.1"
+    },
+    "refined_redstone_1_2": {
+      "archive": "Refined Redstone v1.2.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/refined-redstone",
+      "version": "1.2"
     }
   },
   "files": [
@@ -632,6 +637,15 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/observer_on.json",
+      "source": "refined_redstone_1_2",
+      "notes": "Copied unchanged. The source uses light_emission on 13 elements, which requires Minecraft 1.21.2+ for vanilla full-bright rendering. It also contains 10 faces referencing undefined #missing: eight have zero area and two are inward-facing backs of the eye overlays in front of the solid body."
+    },
+    {
+      "path": "assets/minecraft/models/block/observer.json",
+      "source": "refined_redstone_1_2"
+    },
+    {
       "path": "assets/minecraft/models/block/orange_tulip.json",
       "source": "wild_vanilla_1_0"
     },
@@ -654,6 +668,14 @@
     {
       "path": "assets/minecraft/models/block/pink_tulip.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/piston_head_sticky.json",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/piston_head.json",
+      "source": "refined_redstone_1_2"
     },
     {
       "path": "assets/minecraft/models/block/pitcher_plant_bottom.json",
@@ -1364,6 +1386,54 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/textures/block/observer_back_on_glow.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_back_on.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_back.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_front_on_glow.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_front_on.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_front.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_side_on_glow.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_side_on.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_side.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_top_on_glow.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_top_on.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/observer_top.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
       "path": "assets/minecraft/textures/block/orange_tulip.png",
       "source": "wild_vanilla_1_0"
     },
@@ -1378,6 +1448,18 @@
     {
       "path": "assets/minecraft/textures/block/pink_tulip.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/piston_arm.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/piston_bottom.png",
+      "source": "refined_redstone_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/piston_side_sticky.png",
+      "source": "refined_redstone_1_2"
     },
     {
       "path": "assets/minecraft/textures/block/pitcher_plant.png",
