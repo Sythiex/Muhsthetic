@@ -8,8 +8,11 @@ cobwebs, lily pads, potted variants, and the menu panorama. Better 3D 8.1 suppli
 cake, composter, End Portal Frame, hay bale, loom, and TNT models. Hellim's 3D
 Functional Blocks 1.0 supplies anvil, barrel, beacon, crafting table, respawn anchor,
 smithing table, and stonecutter models, including damage, open, and charge
-variants. Source packs target different Minecraft versions; use vanilla 1.21.1
-when checking compatibility and dependencies.
+variants. Vervada's enhanced plants 1.0.6 supplies big and small dripleaves,
+living and dead coral plants, mangrove propagules, the seven named tree saplings,
+weeping vines, and the corresponding potted saplings and propagules. Azaleas and
+young bamboo are outside this selection. Source packs target different Minecraft
+versions; use vanilla 1.21.1 when checking compatibility and dependencies.
 
 ## Repository directories
 
@@ -43,6 +46,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Better 3D - v8.1.zip`
 - Hellim's 3D Functional Blocks source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Hellim's 3D Functional Blocks v1.0.zip`
+- Vervada's enhanced plants source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Vervada-s-enhanced-plants.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
@@ -63,6 +68,8 @@ exist before using them on another machine.
   pack files or the index. Resolve untracked files and other validation errors.
 - Make compilation edits in the repository pack root. Treat the source ZIP and
   vanilla client JAR as reference archives.
+- Ask the user about file collisions before replacing existing compilation
+  assets with files from another source pack.
 - Before importing files from a new source pack, compare each candidate's
   uncompressed bytes with the vanilla 1.21.1 file at the same resource path in
   the client JAR listed above. Do not copy files that are byte-for-byte identical

@@ -19,6 +19,7 @@ Current source releases:
 | [Wild Vanilla](https://modrinth.com/resourcepack/wildvanilla) | `1.0` | `Wild_Vanilla v1.0 - 1.21.4.zip` |
 | [Better 3D](https://www.curseforge.com/minecraft/texture-packs/better-3d) | `8.1` | `Better 3D - v8.1.zip` |
 | [Hellim's 3D Functional Blocks](https://www.curseforge.com/minecraft/texture-packs/hellims-3d-functional-blocks) | `1.0` | `Hellim's 3D Functional Blocks v1.0.zip` |
+| [Vervada's enhanced plants](https://modrinth.com/resourcepack/3d-plants) | `1.0.6` | `Vervada-s-enhanced-plants.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -31,6 +32,22 @@ damaged), barrel (closed and open), beacon, crafting table, respawn anchor (char
 0–4), smithing table, and stonecutter. All 14 model files are copied unchanged from the
 source and differ from vanilla 1.21.1. They use vanilla blockstates, item models,
 textures, and texture animations, so those files are not bundled.
+
+The Vervada's enhanced plants selection contains 54 unchanged source files for
+big and small dripleaves, all five living and five dead coral plants, mangrove
+propagules, oak/spruce/birch/jungle/acacia/dark oak/cherry saplings, weeping vines,
+and potted saplings and propagules (including randomized rotations). Azaleas and
+young bamboo are excluded by choice; pale oak is absent from Minecraft 1.21.1.
+The source has no replacements for coral blocks or fans, hanging propagules,
+dripleaf stems/lower halves, or weeping vine tips; these use vanilla assets.
+Existing item models continue to provide inventory appearances. All imported
+files differ from vanilla 1.21.1, and none replaced existing compilation files.
+
+Vervada's `flower_pot_cross.json` is omitted: every rendering change in that
+shared parent is already overridden by the selected potted models. Their resolved
+model data is identical using the vanilla parent, avoiding changes to other
+potted plants. The new potted models use the compilation's existing flower-pot
+texture. `crimson_fungus_block.png` is included as a weeping-vine dependency.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

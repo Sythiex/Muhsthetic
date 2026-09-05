@@ -16,6 +16,11 @@
       "archive": "Hellim's 3D Functional Blocks v1.0.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/hellims-3d-functional-blocks",
       "version": "1.0"
+    },
+    "vervada_enhanced_plants_1_0_6": {
+      "archive": "Vervada-s-enhanced-plants.zip",
+      "project_url": "https://modrinth.com/resourcepack/3d-plants",
+      "version": "1.0.6"
     }
   },
   "files": [
@@ -104,6 +109,38 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/blockstates/potted_acacia_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_birch_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_cherry_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_dark_oak_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_jungle_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_mangrove_propagule.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_oak_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_spruce_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/blockstates/red_mushroom.json",
       "source": "wild_vanilla_1_0"
     },
@@ -130,6 +167,10 @@
     {
       "path": "assets/minecraft/blockstates/wither_rose.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/acacia_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/allium.json",
@@ -160,12 +201,32 @@
       "source": "hellims_3d_functional_blocks_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/big_dripleaf_full_tilt.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/big_dripleaf_partial_tilt.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/big_dripleaf.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/big_fern_top.json",
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/birch_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/blue_orchid.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/brain_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/brown_mushroom.json",
@@ -174,6 +235,10 @@
     {
       "path": "assets/minecraft/models/block/brown_mushroom1.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/bubble_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/cake/cake_slice1.json",
@@ -202,6 +267,10 @@
     {
       "path": "assets/minecraft/models/block/cake/cake.json",
       "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cherry_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/chipped_anvil.json",
@@ -276,6 +345,18 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/dark_oak_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_brain_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_bubble_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/dead_bush.json",
       "source": "wild_vanilla_1_0"
     },
@@ -290,6 +371,18 @@
     {
       "path": "assets/minecraft/models/block/dead_bush4.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_fire_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_horn_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/dead_tube_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/end_portal_frame_filled.json",
@@ -316,6 +409,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/fire_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/glow_lichen.json",
       "source": "wild_vanilla_1_0"
     },
@@ -335,6 +432,14 @@
     {
       "path": "assets/minecraft/models/block/hay_block.json",
       "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/horn_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/jungle_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/lilac_bottom.json",
@@ -373,8 +478,16 @@
       "source": "better_3d_8_1"
     },
     {
+      "path": "assets/minecraft/models/block/mangrove_propagule.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/null.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/oak_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/orange_tulip.json",
@@ -413,6 +526,14 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_acacia_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_acacia_sapling45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_allium.json",
       "source": "wild_vanilla_1_0"
     },
@@ -421,12 +542,28 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_birch_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_birch_sapling45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_blue_orchid.json",
       "source": "wild_vanilla_1_0"
     },
     {
       "path": "assets/minecraft/models/block/potted_brown_mushroom.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cherry_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cherry_sapling45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/potted_cornflower.json",
@@ -441,6 +578,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_dark_oak_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_dead_bush.json",
       "source": "wild_vanilla_1_0"
     },
@@ -449,8 +590,32 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_jungle_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_jungle_sapling45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_lily_of_the_valley.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_mangrove_propagule.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_mangrove_propagule45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_oak_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_oak_sapling45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/potted_orange_tulip.json",
@@ -475,6 +640,14 @@
     {
       "path": "assets/minecraft/models/block/potted_red_tulip.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_spruce_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_spruce_sapling45.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/potted_torchflower.json",
@@ -541,8 +714,16 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/small_dripleaf_top.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/smithing_table.json",
       "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/spruce_sapling.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/stonecutter.json",
@@ -597,12 +778,20 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/tube_coral.json",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/models/block/warped_fungus.json",
       "source": "wild_vanilla_1_0"
     },
     {
       "path": "assets/minecraft/models/block/warped_fungus2.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/weeping_vines_plant.json",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/models/block/white_tulip.json",
@@ -757,6 +946,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/acacia_sapling_block.png",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/textures/block/allium_item.png",
       "source": "wild_vanilla_1_0"
     },
@@ -785,12 +978,24 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/cherry_sapling_blossom.png",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cherry_sapling1.png",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/textures/block/cobweb.png",
       "source": "wild_vanilla_1_0"
     },
     {
       "path": "assets/minecraft/textures/block/cornflower.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/crimson_fungus_block.png",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/textures/block/crimson_fungus_emmissive.png",
@@ -803,6 +1008,10 @@
     {
       "path": "assets/minecraft/textures/block/dandelion.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/dark_oak_sapling_block.png",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/textures/block/dead_bush.png",
@@ -829,6 +1038,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/jungle_sapling_block.png",
+      "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
       "path": "assets/minecraft/textures/block/lead_knot.png",
       "source": "wild_vanilla_1_0"
     },
@@ -847,6 +1060,10 @@
     {
       "path": "assets/minecraft/textures/block/null.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/oak_sapling_block.png",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/textures/block/orange_tulip.png",
@@ -903,6 +1120,10 @@
     {
       "path": "assets/minecraft/textures/block/torchflower.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/tube_coral_block_extra.png",
+      "source": "vervada_enhanced_plants_1_0_6"
     },
     {
       "path": "assets/minecraft/textures/block/vanillaflower.png",
