@@ -11,6 +11,11 @@
       "archive": "Better 3D - v8.1.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/better-3d",
       "version": "8.1"
+    },
+    "hellims_3d_functional_blocks_1_0": {
+      "archive": "Hellim's 3D Functional Blocks v1.0.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/hellims-3d-functional-blocks",
+      "version": "1.0"
     }
   },
   "files": [
@@ -135,8 +140,24 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/anvil.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/azure_bluet.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/barrel_open.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/barrel.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/beacon.json",
+      "source": "hellims_3d_functional_blocks_1_0"
     },
     {
       "path": "assets/minecraft/models/block/big_fern_top.json",
@@ -183,6 +204,10 @@
       "source": "better_3d_8_1"
     },
     {
+      "path": "assets/minecraft/models/block/chipped_anvil.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/cobweb.json",
       "source": "wild_vanilla_1_0"
     },
@@ -227,8 +252,16 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/crafting_table.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/crimson_fungus.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/damaged_anvil.json",
+      "source": "hellims_3d_functional_blocks_1_0"
     },
     {
       "path": "assets/minecraft/models/block/dandelion.json",
@@ -468,6 +501,26 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/respawn_anchor_0.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/respawn_anchor_1.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/respawn_anchor_2.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/respawn_anchor_3.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/respawn_anchor_4.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/rose_bush_bottom.json",
       "source": "wild_vanilla_1_0"
     },
@@ -486,6 +539,14 @@
     {
       "path": "assets/minecraft/models/block/short_grass2.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/smithing_table.json",
+      "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/stonecutter.json",
+      "source": "hellims_3d_functional_blocks_1_0"
     },
     {
       "path": "assets/minecraft/models/block/sugar_cane.json",

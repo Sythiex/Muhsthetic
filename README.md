@@ -18,12 +18,19 @@ Current source releases:
 | --- | --- | --- |
 | [Wild Vanilla](https://modrinth.com/resourcepack/wildvanilla) | `1.0` | `Wild_Vanilla v1.0 - 1.21.4.zip` |
 | [Better 3D](https://www.curseforge.com/minecraft/texture-packs/better-3d) | `8.1` | `Better 3D - v8.1.zip` |
+| [Hellim's 3D Functional Blocks](https://www.curseforge.com/minecraft/texture-packs/hellims-3d-functional-blocks) | `1.0` | `Hellim's 3D Functional Blocks v1.0.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
 vanilla textures. The source hay model is also copied to
 `assets/minecraft/models/block/hay_block_horizontal.json` so horizontal bales use
 the 3D geometry; its index entry records the original source path.
+
+The Hellim's 3D Functional Blocks selection covers anvil (including chipped and
+damaged), barrel (closed and open), beacon, crafting table, respawn anchor (charges
+0–4), smithing table, and stonecutter. All 14 model files are copied unchanged from the
+source and differ from vanilla 1.21.1. They use vanilla blockstates, item models,
+textures, and texture animations, so those files are not bundled.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
