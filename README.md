@@ -26,6 +26,7 @@ Current source releases:
 | [3D Amethysts](https://www.planetminecraft.com/texture-pack/3d-amethysts/) | `1` | `3d-amethysts.zip` |
 | [Actually 3D Plants](https://modrinth.com/resourcepack/actually-3d-plants) | `1.1` | `§f§lActually §6§l3D §r§aPlants§7.zip` |
 | [Refined Redstone](https://www.curseforge.com/minecraft/texture-packs/refined-redstone) | `1.2` | `Refined Redstone v1.2.zip` |
+| [Radiant Redstone](https://www.curseforge.com/minecraft/texture-packs/radiant-redstone) | `1.4` | `radiant-redstone.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -126,6 +127,22 @@ backs of the eye overlays immediately in front of the solid body. These source
 limitations are recorded in the index; all other selected texture references
 resolve, and the geometry passes 1.21.1 static checks. Appearance and piston
 movement have not been verified in-game.
+
+The Radiant Redstone selection contains five unchanged source files: the redstone
+wire blockstate, three models (`redstone/doct`, `redstone/wire`, and
+`redstone/wall`), and `redwire.png`. All five differ from vanilla 1.21.1 and were
+added without collisions. Static checks covered all 1,296 combinations of the
+four connection properties and power levels 0–15, including rotated connections
+and upward runs. All model faces retain power tinting. The redstone dust item
+uses vanilla assets, and reference checks found no effects on other blocks or
+items. The source's emissive textures and OptiFine configuration belong to other
+redstone components and are not dependencies of the wire.
+
+All three wire models omit a `particle` texture and have no parent supplying one.
+Vanilla 1.21.1 resolves their particle sprite to the missing texture, so breaking
+particles are expected to show that texture. This source issue is preserved and
+recorded in the index. All face texture references resolve, and the geometry
+passes 1.21.1 static checks. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

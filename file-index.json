@@ -51,6 +51,11 @@
       "archive": "Refined Redstone v1.2.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/refined-redstone",
       "version": "1.2"
+    },
+    "radiant_redstone_1_4": {
+      "archive": "radiant-redstone.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/radiant-redstone",
+      "version": "1.4"
     }
   },
   "files": [
@@ -185,6 +190,10 @@
     {
       "path": "assets/minecraft/blockstates/red_mushroom.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/redstone_wire.json",
+      "source": "radiant_redstone_1_4"
     },
     {
       "path": "assets/minecraft/blockstates/rose_bush.json",
@@ -870,6 +879,21 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/redstone/doct.json",
+      "source": "radiant_redstone_1_4",
+      "notes": "Copied unchanged. The source model has no particle texture or parent supplying one; vanilla 1.21.1 resolves its particle sprite to the missing texture."
+    },
+    {
+      "path": "assets/minecraft/models/block/redstone/wall.json",
+      "source": "radiant_redstone_1_4",
+      "notes": "Copied unchanged. The source model has no particle texture or parent supplying one; vanilla 1.21.1 resolves its particle sprite to the missing texture."
+    },
+    {
+      "path": "assets/minecraft/models/block/redstone/wire.json",
+      "source": "radiant_redstone_1_4",
+      "notes": "Copied unchanged. The source model has no particle texture or parent supplying one; vanilla 1.21.1 resolves its particle sprite to the missing texture."
+    },
+    {
       "path": "assets/minecraft/models/block/respawn_anchor_0.json",
       "source": "hellims_3d_functional_blocks_1_0"
     },
@@ -1496,6 +1520,10 @@
     {
       "path": "assets/minecraft/textures/block/red_tulip.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/redwire.png",
+      "source": "radiant_redstone_1_4"
     },
     {
       "path": "assets/minecraft/textures/block/rose_bush.png",

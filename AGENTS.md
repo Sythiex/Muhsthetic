@@ -23,6 +23,9 @@ Regular warped roots are reserved for a later source.
 Refined Redstone 1.2 supplies observer models and textures, normal/sticky piston
 head models, and piston textures. Its short piston heads remain vanilla, and its
 observer glow uses `light_emission`, which vanilla 1.21.1 does not support.
+Radiant Redstone 1.4 supplies the redstone wire blockstate, three models, and
+their shared texture. Its models omit particle textures; this source issue is
+preserved and recorded in the index.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -72,6 +75,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\§f§lActually §6§l3D §r§aPlants§7.zip`
 - Refined Redstone source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Refined Redstone v1.2.zip`
+- Radiant Redstone source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\radiant-redstone.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
