@@ -21,6 +21,7 @@ Current source releases:
 | [Hellim's 3D Functional Blocks](https://www.curseforge.com/minecraft/texture-packs/hellims-3d-functional-blocks) | `1.0` | `Hellim's 3D Functional Blocks v1.0.zip` |
 | [Vervada's enhanced plants](https://modrinth.com/resourcepack/3d-plants) | `1.0.6` | `Vervada-s-enhanced-plants.zip` |
 | [YoJos-LushPacc!](https://www.planetminecraft.com/texture-pack/3d-cave-vines-3d-hanging-roots/) | `10` | `A-YoJos-LushPacc!V10.zip` |
+| [xksp lush plants](https://www.planetminecraft.com/texture-pack/xksp-lush-plants/) | `3.2` | `xksp-lush-plants-v3-2-e3480.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -57,6 +58,17 @@ collisions. Vanilla blockstates select the new models. The potted variants have
 their own pot geometry and use `flower_pots.png`, `soil.png`, and `chain_pot.png`;
 they do not need a shared flower-pot model replacement. Azalea leaf blocks are
 outside this selection.
+
+The xksp lush plants selection covers bamboo, cactus, ordinary vines, and potted
+bamboo/cactus, including randomized models and rotations: four blockstates,
+31 block models, and 16 textures. All 51 files are copied unchanged, differ from
+vanilla 1.21.1, and were added without collisions. The source's bamboo blockstate
+is byte-for-byte identical to vanilla and is omitted. Vanilla item models use
+the new cactus geometry and vine texture; the bamboo item and young bamboo
+shoot keep their vanilla appearances. Vanilla 1.21.1 has no potted vine block.
+The potted models inherit vanilla's `flower_pot_cross` but supply their own
+geometry and pot textures. Reference checks found no effects on other blocks
+or items.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

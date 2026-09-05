@@ -26,6 +26,11 @@
       "archive": "A-YoJos-LushPacc!V10.zip",
       "project_url": "https://www.planetminecraft.com/texture-pack/3d-cave-vines-3d-hanging-roots/",
       "version": "10"
+    },
+    "xksp_lush_plants_3_2": {
+      "archive": "xksp-lush-plants-v3-2-e3480.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/xksp-lush-plants/",
+      "version": "3.2"
     }
   },
   "files": [
@@ -40,6 +45,10 @@
     {
       "path": "assets/minecraft/blockstates/brown_mushroom.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/cactus.json",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/blockstates/cake.json",
@@ -118,8 +127,16 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/blockstates/potted_bamboo.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/blockstates/potted_birch_sapling.json",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/blockstates/potted_cactus.json",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/blockstates/potted_cherry_sapling.json",
@@ -166,6 +183,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/blockstates/vine.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/blockstates/warped_fungus.json",
       "source": "wild_vanilla_1_0"
     },
@@ -196,6 +217,46 @@
     {
       "path": "assets/minecraft/models/block/azure_bluet.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo_large_leaves.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo_small_leaves.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo1_age0.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo1_age1.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo2_age0.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo2_age1.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo3_age0.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo3_age1.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo4_age0.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo4_age1.json",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/models/block/barrel_open.json",
@@ -248,6 +309,42 @@
     {
       "path": "assets/minecraft/models/block/bubble_coral.json",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus_s.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus2_s.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus2.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus3_s.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus3.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus4.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus5.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cactus6.json",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/models/block/cake/cake_slice1.json",
@@ -559,6 +656,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_bamboo.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_birch_sapling.json",
       "source": "vervada_enhanced_plants_1_0_6"
     },
@@ -573,6 +674,22 @@
     {
       "path": "assets/minecraft/models/block/potted_brown_mushroom.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cactus.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cactus2.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cactus3.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/potted_cactus4.json",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/models/block/potted_cherry_sapling.json",
@@ -803,6 +920,34 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/vine_wall.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/vine_wall2.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/vine_wall3.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/vine_wall4.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/vine_wall5.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/vine_wall6.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/vine.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/models/block/warped_fungus.json",
       "source": "wild_vanilla_1_0"
     },
@@ -1007,6 +1152,26 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/bamboo_3d.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/bamboo_3d2.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/bamboo_3d3.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/bamboo_3d4.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/bamboo_pot.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/textures/block/blue_orchid.png",
       "source": "wild_vanilla_1_0"
     },
@@ -1017,6 +1182,30 @@
     {
       "path": "assets/minecraft/textures/block/brown_mushroom.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cactus_3d.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cactus_3d2.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cactus_3d3.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cactus_3d4.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cactus_3d5.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cactus_pot.png",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/textures/block/chain_pot.png",
@@ -1147,6 +1336,14 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/pot_3d4_2.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pot_3d4.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/textures/block/potted_azalea_bush_plant.png",
       "source": "yojos_lushpacc_10"
     },
@@ -1201,6 +1398,18 @@
     {
       "path": "assets/minecraft/textures/block/vanillaflower.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/vine_3d.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/vine_back.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/vine.png",
+      "source": "xksp_lush_plants_3_2"
     },
     {
       "path": "assets/minecraft/textures/block/warped_fungus_emmissive.png",
