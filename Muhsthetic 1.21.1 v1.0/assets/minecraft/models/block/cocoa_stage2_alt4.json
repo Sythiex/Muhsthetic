@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.5",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/cocoa_stage2_alt",
+		"cocoa": "block/cocoa_stage2_alt"
+	},
+	"elements": [
+		{
+			"from": [8, 9, 7],
+			"to": [8, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 7, 6], "texture": "#cocoa"},
+				"west": {"uv": [7, 0, 16, 6], "texture": "#cocoa"}
+			}
+		},
+		{
+			"from": [4, 1, 6],
+			"to": [11, 10, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 5, 9]},
+			"faces": {
+				"north": {"uv": [9, 6, 16, 15], "texture": "#cocoa"},
+				"east": {"uv": [9, 6, 16, 15], "texture": "#cocoa"},
+				"south": {"uv": [9, 6, 16, 15], "texture": "#cocoa"},
+				"west": {"uv": [9, 6, 16, 15], "texture": "#cocoa"},
+				"up": {"uv": [0, 0, 7, 7], "texture": "#cocoa"},
+				"down": {"uv": [0, 0, 7, 7], "texture": "#cocoa"}
+			}
+		}
+	]
+}

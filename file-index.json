@@ -96,6 +96,11 @@
       "archive": "3D Amethyst - MC1.21.x.zip",
       "project_url": "https://modrinth.com/resourcepack/3d-amethyst",
       "version": "1.0"
+    },
+    "cuter_cocoa_1_2": {
+      "archive": "Cuter Cocoa v1.2.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/cuter-cocoa",
+      "version": "1.2"
     }
   },
   "files": [
@@ -132,6 +137,10 @@
     {
       "path": "assets/minecraft/blockstates/cobweb.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/cocoa.json",
+      "source": "cuter_cocoa_1_2"
     },
     {
       "path": "assets/minecraft/blockstates/composter.json",
@@ -512,6 +521,72 @@
     {
       "path": "assets/minecraft/models/block/cobweb.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage0_alt1.json",
+      "source": "cuter_cocoa_1_2",
+      "notes": "Adjusted the first two elements from +30/-30 to +22.5/-22.5 degrees around Y for Minecraft 1.21.1, which rejects the original rotation angles. All other source bytes, including credits, are preserved."
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage0_alt2.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage0_alt3.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage0_alt4.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage0.json",
+      "source": "cuter_cocoa_1_2",
+      "notes": "Adjusted the first two elements from +30/-30 to +22.5/-22.5 degrees around Y for Minecraft 1.21.1, which rejects the original rotation angles. All other source bytes, including credits, are preserved."
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage1_alt1.json",
+      "source": "cuter_cocoa_1_2",
+      "notes": "Adjusted the first two elements from +30/-30 to +22.5/-22.5 degrees around Y for Minecraft 1.21.1, which rejects the original rotation angles. All other source bytes, including credits, are preserved."
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage1_alt2.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage1_alt3.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage1_alt4.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage1.json",
+      "source": "cuter_cocoa_1_2",
+      "notes": "Adjusted the first two elements from +30/-30 to +22.5/-22.5 degrees around Y for Minecraft 1.21.1, which rejects the original rotation angles. All other source bytes, including credits, are preserved."
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage2_alt1.json",
+      "source": "cuter_cocoa_1_2",
+      "notes": "Adjusted the first two elements from +30/-30 to +22.5/-22.5 degrees around Y for Minecraft 1.21.1, which rejects the original rotation angles. All other source bytes, including credits, are preserved."
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage2_alt2.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage2_alt3.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage2_alt4.json",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/cocoa_stage2.json",
+      "source": "cuter_cocoa_1_2",
+      "notes": "Adjusted the first two elements from +30/-30 to +22.5/-22.5 degrees around Y for Minecraft 1.21.1, which rejects the original rotation angles. All other source bytes, including credits, are preserved."
     },
     {
       "path": "assets/minecraft/models/block/composter/composter_contents_ready.json",
@@ -1530,6 +1605,30 @@
     {
       "path": "assets/minecraft/textures/block/cobweb.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cocoa_stage0_alt.png",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cocoa_stage0.png",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cocoa_stage1_alt.png",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cocoa_stage1.png",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cocoa_stage2_alt.png",
+      "source": "cuter_cocoa_1_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cocoa_stage2.png",
+      "source": "cuter_cocoa_1_2"
     },
     {
       "path": "assets/minecraft/textures/block/cornflower.png",

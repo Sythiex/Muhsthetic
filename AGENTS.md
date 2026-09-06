@@ -55,6 +55,10 @@ and item models, the calibrated sculk sensor block model, and their shared
 amethyst texture. Vanilla selects all facing directions and sensor phases.
 This is a separate source from `3d-amethysts.zip`, which supplies the solid
 amethyst blocks above.
+Cuter Cocoa 1.2 supplies the cocoa blockstate, fifteen models across all three
+growth stages, and six textures. Six models have their unsupported +30/-30 degree
+element rotations adjusted to +22.5/-22.5 for vanilla 1.21.1; index notes record
+these changes. The cocoa beans item uses vanilla assets.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -122,6 +126,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Cave Vines 16x Complementary Shaders Fix v1.zip`
 - 3D Amethyst source archive (buds, cluster, and calibrated sculk sensor):
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\3D Amethyst - MC1.21.x.zip`
+- Cuter Cocoa source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Cuter Cocoa v1.2.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
