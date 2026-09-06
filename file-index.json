@@ -66,6 +66,11 @@
       "archive": "§f§lActually §6§l3D §r§2Workbenches§7.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/actually-3d-workbenches",
       "version": "1.0"
+    },
+    "better_seagrass_1_0_1": {
+      "archive": "Better seagrass.zip",
+      "project_url": "https://modrinth.com/resourcepack/better-seagrass",
+      "version": "1.0.1"
     }
   },
   "files": [
@@ -957,6 +962,11 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/seagrass.json",
+      "source": "better_seagrass_1_0_1",
+      "notes": "Copied unchanged. The source has four faces referencing undefined #missing; all four are zero-area side faces of its horizontal base plane."
+    },
+    {
       "path": "assets/minecraft/models/block/short_grass_special.json",
       "source": "wild_vanilla_1_0"
     },
@@ -1019,6 +1029,15 @@
     {
       "path": "assets/minecraft/models/block/tall_grass_top.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/tall_seagrass_bottom.json",
+      "source": "better_seagrass_1_0_1",
+      "notes": "Copied unchanged. The source has four faces referencing undefined #missing; all four are zero-area side faces of its horizontal base plane."
+    },
+    {
+      "path": "assets/minecraft/models/block/tall_seagrass_top.json",
+      "source": "better_seagrass_1_0_1"
     },
     {
       "path": "assets/minecraft/models/block/tnt.json",
@@ -1599,6 +1618,10 @@
     {
       "path": "assets/minecraft/textures/block/rose.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/seagrass_bottom.png",
+      "source": "better_seagrass_1_0_1"
     },
     {
       "path": "assets/minecraft/textures/block/soil.png",

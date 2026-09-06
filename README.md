@@ -29,6 +29,7 @@ Current source releases:
 | [Radiant Redstone](https://www.curseforge.com/minecraft/texture-packs/radiant-redstone) | `1.4` | `radiant-redstone.zip` |
 | [3D crops Revamped](https://modrinth.com/resourcepack/3d-crops) | `3` | `3D crops Revamped.zip` |
 | [Actually 3D Workbenches](https://www.curseforge.com/minecraft/texture-packs/actually-3d-workbenches) | `1.0` | `§f§lActually §6§l3D §r§2Workbenches§7.zip` |
+| [Better Seagrass](https://modrinth.com/resourcepack/better-seagrass) | `1.0.1` | `Better seagrass.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -171,6 +172,21 @@ orientations and crafting/triggered states, plus the inventory model. All face
 and particle texture references resolve, and the geometry passes 1.21.1 checks.
 Reference checks found effects only on the Crafter block and item; the existing
 crafting table is unaffected. Appearance has not been verified in-game.
+
+The Better Seagrass selection contains four unchanged source files: seagrass,
+tall seagrass bottom, and tall seagrass top models, plus their shared
+`seagrass_bottom.png` base texture. All four differ from vanilla 1.21.1 and were
+added without collisions. Vanilla blockstates select the models, which use
+vanilla animated seagrass textures alongside the new static base texture. The
+seagrass item uses vanilla assets. The source's axolotl-bucket models and
+`desktop.ini` are unrelated and are excluded. Static checks covered ordinary
+seagrass and both tall halves and found no effects on other blocks or items.
+
+The seagrass and tall seagrass bottom models each retain four faces referencing
+undefined `#missing`. All eight are zero-area side faces of their horizontal
+base planes. This source issue is recorded in the index; all other face and
+particle texture references resolve, and the geometry passes 1.21.1 static
+checks. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
