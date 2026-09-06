@@ -41,6 +41,7 @@ Current source releases:
 | [Montana's Bushier Kelp](https://modrinth.com/resourcepack/montanas-bushier-kelp) | `2.0.1` | `bushy_kelp.zip` |
 | [Nature rework V2](https://www.planetminecraft.com/texture-pack/nature-rework-v2/) | `2` | `nature-rework-v2.zip` |
 | [Rad's Lush Foliage](https://modrinth.com/resourcepack/rads-lush-foliage) | `1.0.4` | `Rad's Lush Foliage.zip` |
+| Wild Vanilla Glow Lichen Complementary Shaders Fix (project link: `N/A`) | `1` | `Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -357,6 +358,18 @@ the shared parent, none of those models is imported, and a reverse dependency
 check confirms that only placed Crimson Roots are affected. Static checks found
 no missing face or particle textures or incompatible geometry. The source's
 model credit is preserved. Appearance has not been verified in-game.
+
+Wild Vanilla Glow Lichen Complementary Shaders Fix 1 replaces only
+`assets/minecraft/textures/block/glow_lichen.png`, copied unchanged from the fix
+ZIP and attributed to its source entry with project URL `N/A`. Comparing the
+archives found that the blockstate and block/item models are byte-for-byte
+identical to Wild Vanilla 1.0; they retain their original files, credits, and
+provenance. The fix pack's root metadata and icon are omitted.
+
+The replacement texture differs from vanilla 1.21.1 and retains its original
+32-by-32 dimensions. PNG integrity and model texture-reference checks passed;
+all other compilation asset bytes are preserved. The Complementary shader
+appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

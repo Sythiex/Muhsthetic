@@ -121,6 +121,11 @@
       "archive": "Rad's Lush Foliage.zip",
       "project_url": "https://modrinth.com/resourcepack/rads-lush-foliage",
       "version": "1.0.4"
+    },
+    "wild_vanilla_glow_lichen_complementary_shaders_fix_1": {
+      "archive": "Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip",
+      "project_url": "N/A",
+      "version": "1"
     }
   },
   "files": [
@@ -1873,7 +1878,7 @@
     },
     {
       "path": "assets/minecraft/textures/block/glow_lichen.png",
-      "source": "wild_vanilla_1_0"
+      "source": "wild_vanilla_glow_lichen_complementary_shaders_fix_1"
     },
     {
       "path": "assets/minecraft/textures/block/grass.png",

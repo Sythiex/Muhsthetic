@@ -74,6 +74,9 @@ Rad's Lush Foliage 1.0.4 supplies the Crimson Roots model and its shared
 `cross_foliage` parent, both copied unchanged. Only placed Crimson Roots are
 affected; its texture and item continue using existing assets. Potted Crimson
 Roots uses xksp's model and dedicated plant/pot textures.
+Wild Vanilla Glow Lichen Complementary Shaders Fix 1 supplies only the
+replacement `glow_lichen.png` texture. The unchanged blockstate and block/item
+models remain attributed to Wild Vanilla 1.0. The fix source's project URL is `N/A`.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -153,6 +156,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Rad's Lush Foliage source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Rad's Lush Foliage.zip`
+- Wild Vanilla Glow Lichen Complementary Shaders Fix source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip`
 - Instance version and loader configuration:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\mmc-pack.json`
 - Instance logs, including `latest.log` for resource loading errors:
