@@ -136,6 +136,11 @@
       "archive": "better bamboo.zip",
       "project_url": "https://modrinth.com/resourcepack/improved-bamboo",
       "version": "1.0 full pack"
+    },
+    "better_crops_3d_16x_tall_wheat_update_3": {
+      "archive": "better-crops-3d-16x-with-tall-wheat.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/better-crops-3d-16x-with-tall-wheat/",
+      "version": "Update #3"
     }
   },
   "files": [
@@ -344,6 +349,11 @@
     {
       "path": "assets/minecraft/blockstates/warped_fungus.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/wheat.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
     },
     {
       "path": "assets/minecraft/blockstates/wither_rose.json",
@@ -1533,6 +1543,53 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/wheat/wheat_generic_tall.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_generic.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage0.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage1.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage2.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage3.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage4.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage5.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage6.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/wheat/wheat_stage7.json",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
       "path": "assets/minecraft/models/block/white_tulip.json",
       "source": "wild_vanilla_1_0"
     },
@@ -2290,6 +2347,38 @@
       "source": "actually_3d_plants_1_1"
     },
     {
+      "path": "assets/minecraft/textures/block/wheat_stage0.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage1.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage2.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage3.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage4.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage5.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage6.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/block/wheat_stage7.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
       "path": "assets/minecraft/textures/block/white_tulip.png",
       "source": "wild_vanilla_1_0"
     },
@@ -2340,6 +2429,14 @@
     {
       "path": "assets/minecraft/textures/item/sugar_cane.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/item/wheat_seeds.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
+    },
+    {
+      "path": "assets/minecraft/textures/item/wheat.png",
+      "source": "better_crops_3d_16x_tall_wheat_update_3"
     }
   ]
 }

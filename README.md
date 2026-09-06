@@ -44,6 +44,7 @@ Current source releases:
 | Wild Vanilla Glow Lichen Complementary Shaders Fix (project link: `N/A`) | `1` | `Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip` |
 | [XeKr flowers leaves model pack](https://www.curseforge.com/minecraft/texture-packs/xekr-flowers-leaves-model-pack) | `1.1` | `XeKr flowers leaves model pack19plus1.1.zip` |
 | [Improved bamboo](https://modrinth.com/resourcepack/improved-bamboo) | `1.0 full pack` | `better bamboo.zip` |
+| [Better Crops 3D 16x With tall wheat](https://www.planetminecraft.com/texture-pack/better-crops-3d-16x-with-tall-wheat/) | `Update #3` | `better-crops-3d-16x-with-tall-wheat.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -408,6 +409,24 @@ retains fifteen undefined `#missing` references: six on zero-area leaf edges,
 six on an enclosed stem cuboid, two on internal stem bottoms, and one on the
 base underside against its supporting block. These are recorded in the index;
 visible outer faces resolve correctly. Appearance has not been verified in-game.
+
+The Better Crops 3D 16x With tall wheat selection contains 21 files: the wheat
+blockstate, eight growth-stage models, two shared parent models, eight crop
+textures, and wheat and wheat seed item textures. Stages zero through four use
+the normal parent and 16-by-16 textures; stages five through seven use the tall
+parent and 32-by-32 textures. Vanilla item models use the replacement item
+textures. No selected files match vanilla 1.21.1 byte-for-byte, and no collisions
+were found. The source's other crops, farmland, hay bale textures, and unrelated
+files are outside this selection.
+
+The blockstate and stage-zero through stage-six models contain invalid trailing
+`Made by Ensis` text. These eight files are repaired to keep the credit inside
+valid JSON fields, retaining existing credits and all rendering data. Their index
+entries document the repairs. The other thirteen files are copied unchanged.
+Static checks covered all eight ages, both item models, 640 resolved model faces,
+particle textures, supported geometry and rotations, and all ten PNGs. No missing
+references or effects on unrelated blocks/items were found. Appearance has not
+been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
