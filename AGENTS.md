@@ -44,8 +44,12 @@ the source's optional Respackopts toggles are omitted.
 Cave Vines 16x 1 supplies cave vine tip/body models with randomized berries,
 their blockstates and textures, and the glow berries item model and textures.
 Its OptiFine emissive setting currently matches only glow berries; the extra
-glow requires compatible emissive-texture support. Three trailing source
-credits were moved into JSON fields, with the repairs recorded in the index.
+glow requires compatible emissive-texture support. Cave Vines 16x Complementary
+Shaders Fix 1 supplies only five replacement textures. The other fourteen assets
+remain attributed to `cave_vines_16x_1`, including both blockstates and the glow
+berries item model. Keep `"credit": "Made by Ensis"` inside those three JSON
+objects. Their index notes record moving the original source's trailing credits
+into valid JSON fields without changing rendering data.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -109,6 +113,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Bushy pink petals, wildflowers  leaf litter.zip`
 - Cave Vines 16x source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\cave-vines-16x.zip`
+- Cave Vines 16x Complementary Shaders Fix source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Cave Vines 16x Complementary Shaders Fix v1.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
@@ -125,6 +131,8 @@ exist before using them on another machine.
   from provenance tracking and validation. See `README.md` for the format.
 - For future sources, ask the user for any missing project page link or pack
   version before assigning provenance. Do not guess these from archive names.
+  If the user explicitly supplies `N/A` for the link, record `project_url` as
+  `"N/A"`; do not use it as a substitute for asking about missing metadata.
 - Run `pwsh -NoProfile -File ./scripts/validate-file-index.ps1` after changing
   pack files or the index. Resolve untracked files and other validation errors.
 - Make compilation edits in the repository pack root. Treat the source ZIP and

@@ -9,8 +9,9 @@ A Minecraft Java 1.21.1 resource pack compilation. The pack is in
 Files directly in the pack root, such as `pack.mcmeta` and `pack.png`, are excluded
 from the index and validation. Paths are relative to `pack_root` and use forward slashes.
 Each file refers to a source ID whose entry records the exact ZIP filename,
-project page URL, and source pack version. Source details are shared to avoid
-repeating them for every file.
+project page URL, and source pack version. If the user explicitly supplies
+`N/A` for the link, `project_url` stores that exact string. Source details are
+shared to avoid repeating them for every file.
 
 Current source releases:
 
@@ -33,6 +34,7 @@ Current source releases:
 | [Better stations](https://www.curseforge.com/minecraft/texture-packs/better-stations) | `May 8, 2022` | `Better stations.zip` |
 | [Bushy pink petals, wildflowers & leaf litter](https://www.curseforge.com/minecraft/texture-packs/bushy-pink-petals-wildflowers-leaf-litter) | `1.0.1` | `Bushy pink petals, wildflowers  leaf litter.zip` |
 | [Cave Vines 16x](https://www.planetminecraft.com/texture-pack/cave-vines-16x/) | `1` | `cave-vines-16x.zip` |
+| Cave Vines 16x Complementary Shaders Fix (project link: `N/A`) | `1` | `Cave Vines 16x Complementary Shaders Fix v1.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -216,15 +218,20 @@ The Cave Vines 16x selection includes all 19 resource files related to cave vine
 and glow berries: two blockstates, eight block models, one item model, seven
 textures, and an OptiFine emissive configuration. The only omitted source files
 are `desktop.ini`, `pack.mcmeta`, and `pack.png`. All imported files differ from
-vanilla 1.21.1 and were added without collisions. Each vine section has three
+vanilla 1.21.1. Each vine section has three
 equally weighted models when bearing berries and one model without berries.
 The glow berries item uses a separate berry-only particle texture.
 
-Both source blockstates and the glow berries item model have `Made by Ensis`
-appended outside their JSON objects. These credits were moved into `credit`
-fields to make the files valid JSON; their model selection and rendering data
-are unchanged. These three repairs are recorded in the index. The other 16 files
-are copied byte-for-byte from the source.
+The Complementary Shaders Fix supplies five replacement textures: the four
+`cave_vines`/`cave_vines_plant` block textures (including their `_lit` variants)
+and the glow berries item texture. All five differ from the original ZIP and
+match the fix ZIP exactly. The other fourteen assets retain their original
+`cave_vines_16x_1` provenance, including both blockstates and the glow berries
+item model, which match the compilation's original import with its JSON repairs.
+These three files keep `"credit": "Made by Ensis"` inside their JSON objects;
+their index notes record moving the original ZIP's trailing attribution into
+valid JSON fields. The fix's root metadata is excluded, and its project link is
+recorded as the user-supplied `N/A`.
 
 The included `optifine/emissive.properties` uses the `_e` suffix, which matches
 only the new glow berries item texture in the current compilation. This extra
@@ -234,7 +241,7 @@ from the berry-bearing blocks' normal light emission. See the
 Static checks covered all eight block model choices and the item model, with
 no missing face or particle texture references, incompatible model geometry,
 or effects on unrelated block/item models. Appearance and emissive rendering
-have not been verified in-game.
+have not been verified in-game, including the Complementary Shaders fix.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
@@ -268,6 +275,8 @@ pack directory.
 1. For each new source release, add a distinct entry to `sources` with its exact
    `archive` filename, `project_url`, and `version` as strings. Ask the user for
    any missing project link or version; do not infer them from the ZIP filename.
+   Use the exact string `N/A` for `project_url` only when the user explicitly
+   supplies it. Missing, blank, or otherwise invalid links still fail validation.
 2. Add a `files` entry for each copied file in the pack's subdirectories, such as
    `{ "path": "assets/minecraft/textures/block/example.png", "source": "example_1_0" }`.
    Keep entries sorted by path. When replacing a file with one from another

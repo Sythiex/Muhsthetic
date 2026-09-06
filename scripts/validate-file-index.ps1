@@ -72,12 +72,13 @@ try {
                 $problems.Add("Source '$sourceId': archive must be an exact ZIP filename, without a directory path.")
             }
         }
-        if (Test-NonemptyString $source['project_url']) {
+        # N/A is an explicit user-supplied absence, not a missing metadata field.
+        if ((Test-NonemptyString $source['project_url']) -and $source['project_url'] -cne 'N/A') {
             $projectUri = $null
             if (-not [Uri]::TryCreate($source['project_url'], [UriKind]::Absolute, [ref]$projectUri) -or
                 $projectUri.Scheme -notin @('http', 'https') -or
                 [string]::IsNullOrWhiteSpace($projectUri.Host)) {
-                $problems.Add("Source '$sourceId': project_url must be an absolute HTTP or HTTPS link.")
+                $problems.Add("Source '$sourceId': project_url must be an absolute HTTP or HTTPS link, or N/A when explicitly supplied by the user.")
             }
         }
     }

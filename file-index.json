@@ -86,6 +86,11 @@
       "archive": "cave-vines-16x.zip",
       "project_url": "https://www.planetminecraft.com/texture-pack/cave-vines-16x/",
       "version": "1"
+    },
+    "cave_vines_16x_complementary_shaders_fix_1": {
+      "archive": "Cave Vines 16x Complementary Shaders Fix v1.zip",
+      "project_url": "N/A",
+      "version": "1"
     }
   },
   "files": [
@@ -1451,19 +1456,19 @@
     },
     {
       "path": "assets/minecraft/textures/block/cave_vines_lit.png",
-      "source": "cave_vines_16x_1"
+      "source": "cave_vines_16x_complementary_shaders_fix_1"
     },
     {
       "path": "assets/minecraft/textures/block/cave_vines_plant_lit.png",
-      "source": "cave_vines_16x_1"
+      "source": "cave_vines_16x_complementary_shaders_fix_1"
     },
     {
       "path": "assets/minecraft/textures/block/cave_vines_plant.png",
-      "source": "cave_vines_16x_1"
+      "source": "cave_vines_16x_complementary_shaders_fix_1"
     },
     {
       "path": "assets/minecraft/textures/block/cave_vines.png",
-      "source": "cave_vines_16x_1"
+      "source": "cave_vines_16x_complementary_shaders_fix_1"
     },
     {
       "path": "assets/minecraft/textures/block/chain_pot.png",
@@ -1835,7 +1840,7 @@
     },
     {
       "path": "assets/minecraft/textures/item/glow_berries.png",
-      "source": "cave_vines_16x_1"
+      "source": "cave_vines_16x_complementary_shaders_fix_1"
     },
     {
       "path": "assets/minecraft/textures/item/sugar_cane.png",
