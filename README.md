@@ -45,6 +45,7 @@ Current source releases:
 | [XeKr flowers leaves model pack](https://www.curseforge.com/minecraft/texture-packs/xekr-flowers-leaves-model-pack) | `1.1` | `XeKr flowers leaves model pack19plus1.1.zip` |
 | [Improved bamboo](https://modrinth.com/resourcepack/improved-bamboo) | `1.0 full pack` | `better bamboo.zip` |
 | [Better Crops 3D 16x With tall wheat](https://www.planetminecraft.com/texture-pack/better-crops-3d-16x-with-tall-wheat/) | `Update #3` | `better-crops-3d-16x-with-tall-wheat.zip` |
+| [Warped Roots3d](https://www.planetminecraft.com/texture-pack/warped-roots3d/) | `Update #2` | `warped-roots-3d.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -127,9 +128,9 @@ The Actually 3D Plants selection contains three unchanged source files: Nether
 Sprouts and potted warped roots block models, plus `warped_roots_pot.png`. All
 three differ from vanilla 1.21.1 and were added without collisions. Vanilla
 blockstates select both models. The models use vanilla Nether Sprouts and dirt
-textures and the compilation's existing flower-pot texture. Item appearances
-and regular warped roots remain unchanged; regular warped roots are reserved
-for a later source. Static checks found no missing references,
+textures and the compilation's existing flower-pot texture. This selection does
+not affect item appearances or regular warped roots, which are now supplied by
+Warped Roots3d below. Static checks found no missing references,
 incompatible model geometry, or effects on other blocks or items. Appearance
 has not been verified in-game.
 
@@ -427,6 +428,23 @@ Static checks covered all eight ages, both item models, 640 resolved model faces
 particle textures, supported geometry and rotations, and all ten PNGs. No missing
 references or effects on unrelated blocks/items were found. Appearance has not
 been verified in-game.
+
+The Warped Roots3d selection contains eight files: the regular warped roots
+blockstate, three model variants, and four textures. The blockstate selects six
+equally weighted model/rotation combinations. Vanilla's item model uses the new
+`warped_roots.png` texture. No selected files match vanilla 1.21.1 byte-for-byte,
+and no collisions were found. The source's `warped_roots_pot.png` is excluded;
+the existing potted model and its dedicated texture remain from Actually 3D
+Plants. Dependency checks confirm that only regular warped roots and their item
+are affected.
+
+All four JSON files have invalid trailing `Made by Ensis` text removed while
+preserving their existing credit fields and all rendering data. Each model also
+retains 72 undefined `#missing` references on zero-area faces (216 total), recorded
+in the index. All visible faces and particle textures resolve correctly, and
+geometry and rotations are compatible with vanilla 1.21.1. The four textures are
+copied unchanged and pass PNG integrity checks: the appendix texture is 16-by-16
+and the other three are 32-by-32. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

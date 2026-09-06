@@ -19,7 +19,7 @@ table and fletching table models and the enchanting table's side/top textures.
 3D Amethysts 1 supplies the budding amethyst model and the textures for block of
 amethyst and budding amethyst. Actually 3D Plants 1.1 supplies Nether Sprouts and
 potted warped roots models, plus the dedicated potted warped roots texture.
-Regular warped roots are reserved for a later source.
+Regular warped roots and their item texture come from Warped Roots3d Update #2.
 Refined Redstone 1.2 supplies observer models and textures, normal/sticky piston
 head models, and piston textures. Its short piston heads remain vanilla, and its
 observer glow uses `light_emission`, which vanilla 1.21.1 does not support.
@@ -92,6 +92,12 @@ and seed item textures. Stages five through seven use the tall parent. Eight
 JSON files have invalid trailing credits moved into valid fields while preserving
 rendering data; the other thirteen files are unchanged. Only wheat and its seeds
 are affected.
+Warped Roots3d Update #2 supplies the regular warped roots blockstate, three
+models with six rotated choices, and four textures including the item texture.
+All four JSON files have trailing credits repaired while preserving the existing
+Made by Ensis fields and rendering data. Each model retains 72 undefined texture
+references on zero-area faces, recorded in the index. Potted warped roots remain
+supplied by Actually 3D Plants; this source's potted texture is excluded.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -179,6 +185,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\better bamboo.zip`
 - Better Crops 3D 16x With tall wheat source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\better-crops-3d-16x-with-tall-wheat.zip`
+- Warped Roots3d source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\warped-roots-3d.zip`
 - Instance version and loader configuration:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\mmc-pack.json`
 - Instance logs, including `latest.log` for resource loading errors:

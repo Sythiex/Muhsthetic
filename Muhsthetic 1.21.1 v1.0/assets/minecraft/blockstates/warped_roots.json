@@ -1,0 +1,31 @@
+{
+  "credit": "Made by Ensis",
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/warped_roots/warped_roots_0",
+        "y": 0
+      },
+      {
+        "model": "minecraft:block/warped_roots/warped_roots_0",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/warped_roots/warped_roots_1",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/warped_roots/warped_roots_1",
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/warped_roots/warped_roots_2",
+        "y": 0
+      },
+      {
+        "model": "minecraft:block/warped_roots/warped_roots_2",
+        "y": 90
+      }
+    ]
+  }
+}

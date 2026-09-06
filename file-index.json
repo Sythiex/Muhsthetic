@@ -141,6 +141,11 @@
       "archive": "better-crops-3d-16x-with-tall-wheat.zip",
       "project_url": "https://www.planetminecraft.com/texture-pack/better-crops-3d-16x-with-tall-wheat/",
       "version": "Update #3"
+    },
+    "warped_roots_3d_update_2": {
+      "archive": "warped-roots-3d.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/warped-roots3d/",
+      "version": "Update #2"
     }
   },
   "files": [
@@ -349,6 +354,11 @@
     {
       "path": "assets/minecraft/blockstates/warped_fungus.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/warped_roots.json",
+      "source": "warped_roots_3d_update_2",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged."
     },
     {
       "path": "assets/minecraft/blockstates/wheat.json",
@@ -1539,6 +1549,21 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/warped_roots/warped_roots_0.json",
+      "source": "warped_roots_3d_update_2",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged. Retains 72 undefined #missing texture references, all on zero-area faces. Visible faces and particles resolve correctly."
+    },
+    {
+      "path": "assets/minecraft/models/block/warped_roots/warped_roots_1.json",
+      "source": "warped_roots_3d_update_2",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged. Retains 72 undefined #missing texture references, all on zero-area faces. Visible faces and particles resolve correctly."
+    },
+    {
+      "path": "assets/minecraft/models/block/warped_roots/warped_roots_2.json",
+      "source": "warped_roots_3d_update_2",
+      "notes": "Removed the invalid trailing Made by Ensis text and preserved it as a valid \"credit\": \"Made by Ensis\" field. Rendering data is unchanged. Retains 72 undefined #missing texture references, all on zero-area faces. Visible faces and particles resolve correctly."
+    },
+    {
       "path": "assets/minecraft/models/block/weeping_vines_plant.json",
       "source": "vervada_enhanced_plants_1_0_6"
     },
@@ -2343,8 +2368,24 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/warped_roots_appendix.png",
+      "source": "warped_roots_3d_update_2"
+    },
+    {
       "path": "assets/minecraft/textures/block/warped_roots_pot.png",
       "source": "actually_3d_plants_1_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/warped_roots_sprout.png",
+      "source": "warped_roots_3d_update_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/warped_roots_stem.png",
+      "source": "warped_roots_3d_update_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/warped_roots.png",
+      "source": "warped_roots_3d_update_2"
     },
     {
       "path": "assets/minecraft/textures/block/wheat_stage0.png",
