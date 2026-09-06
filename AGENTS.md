@@ -66,6 +66,10 @@ Montana's Bushier Kelp 2.0.1 supplies the kelp plant blockstate, six kelp/tip
 models, and an animated side texture. Nine files are copied unchanged; the five
 plant models retain 124 undefined texture references on zero-area faces,
 recorded in the index. The kelp item uses vanilla assets.
+Nature rework V2 supplies pointed dripstone models and textures, its item
+texture, and all four sweet berry bush growth stages with their shared model.
+All 27 files are copied unchanged. Vanilla blockstates select the models;
+the source has no replacement for the Sweet Berries item.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -139,6 +143,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Flora Formae 1.4.zip`
 - Montana's Bushier Kelp source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\bushy_kelp.zip`
+- Nature rework V2 source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\nature-rework-v2.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:

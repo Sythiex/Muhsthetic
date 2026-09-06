@@ -39,6 +39,7 @@ Current source releases:
 | [Cuter Cocoa](https://www.curseforge.com/minecraft/texture-packs/cuter-cocoa) | `1.2` | `Cuter Cocoa v1.2.zip` |
 | [Flora Formae](https://modrinth.com/resourcepack/flora-formae) | `1.4` | `Flora Formae 1.4.zip` |
 | [Montana's Bushier Kelp](https://modrinth.com/resourcepack/montanas-bushier-kelp) | `2.0.1` | `bushy_kelp.zip` |
+| [Nature rework V2](https://www.planetminecraft.com/texture-pack/nature-rework-v2/) | `2` | `nature-rework-v2.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -315,6 +316,26 @@ block particle textures resolve correctly, and model geometry uses supported
 models, `desktop.ini`, and root metadata/icon are omitted. Static dependency,
 model selection, PNG integrity, and animation checks passed, with no effects on
 unrelated blocks or items. Appearance has not been verified in-game.
+
+The Nature rework V2 selection includes 27 unchanged source files: seven pointed
+dripstone models, ten dripstone block textures, the dripstone item texture,
+four sweet berry bush stage models, their shared `berry_cross.json` parent,
+and four bush textures. All differ from vanilla 1.21.1, with no collisions.
+The dripstone block textures are 64-by-32, the bush textures are 16-by-26,
+and the item texture is 16-by-16; none has animation metadata.
+
+Vanilla's blockstates select all five dripstone thicknesses in both vertical
+directions, for both waterlogged states, and all four bush ages. Vanilla's
+dripstone base/frustum/middle models inherit the replacement shared parent;
+the imported tip and merged-tip models use dedicated parents. The dripstone
+item uses its new texture through vanilla's item model. This source provides
+no replacement for the Sweet Berries item, which retains vanilla assets.
+Other source assets and its unrelated OptiFine emissive configuration are omitted.
+
+Static checks covered all twenty dripstone states, four bush ages, both item
+models, and all fifteen PNGs. No missing face or particle textures, incompatible
+geometry, or effects on unrelated blocks or items were found. Appearance has
+not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

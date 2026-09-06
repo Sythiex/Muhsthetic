@@ -111,6 +111,11 @@
       "archive": "bushy_kelp.zip",
       "project_url": "https://modrinth.com/resourcepack/montanas-bushier-kelp",
       "version": "2.0.1"
+    },
+    "nature_rework_2": {
+      "archive": "nature-rework-v2.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/nature-rework-v2/",
+      "version": "2"
     }
   },
   "files": [
@@ -379,6 +384,10 @@
     {
       "path": "assets/minecraft/models/block/beacon.json",
       "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/berry_cross.json",
+      "source": "nature_rework_2"
     },
     {
       "path": "assets/minecraft/models/block/big_dripleaf_full_tilt.json",
@@ -996,6 +1005,34 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/pointed_dripstone_down_tip_merge.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/pointed_dripstone_down_tip.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/pointed_dripstone_up_tip_merge.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/pointed_dripstone_up_tip.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/pointed_dripstone.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/pointed_dripstone1.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/pointed_dripstone2.json",
+      "source": "nature_rework_2"
+    },
+    {
       "path": "assets/minecraft/models/block/poppy.json",
       "source": "wild_vanilla_1_0"
     },
@@ -1286,6 +1323,22 @@
     {
       "path": "assets/minecraft/models/block/sunflower_top4.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/sweet_berry_bush_stage0.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/sweet_berry_bush_stage1.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/sweet_berry_bush_stage2.json",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/sweet_berry_bush_stage3.json",
+      "source": "nature_rework_2"
     },
     {
       "path": "assets/minecraft/models/block/tall_grass_bottom.json",
@@ -1950,6 +2003,46 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_down_base.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_down_frustum.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_down_middle.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_down_tip_merge.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_down_tip.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_up_base.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_up_frustum.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_up_middle.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_up_tip_merge.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pointed_dripstone_up_tip.png",
+      "source": "nature_rework_2"
+    },
+    {
       "path": "assets/minecraft/textures/block/poppy.png",
       "source": "wild_vanilla_1_0"
     },
@@ -2008,6 +2101,22 @@
     {
       "path": "assets/minecraft/textures/block/sunflower_top.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/sweet_berry_bush_stage0.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/sweet_berry_bush_stage1.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/sweet_berry_bush_stage2.png",
+      "source": "nature_rework_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/sweet_berry_bush_stage3.png",
+      "source": "nature_rework_2"
     },
     {
       "path": "assets/minecraft/textures/block/tall_grass_top.png",
@@ -2092,6 +2201,10 @@
     {
       "path": "assets/minecraft/textures/item/glow_berries.png",
       "source": "cave_vines_16x_complementary_shaders_fix_1"
+    },
+    {
+      "path": "assets/minecraft/textures/item/pointed_dripstone.png",
+      "source": "nature_rework_2"
     },
     {
       "path": "assets/minecraft/textures/item/sugar_cane.png",
