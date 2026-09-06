@@ -1,0 +1,11 @@
+{
+  "credit": "Made by Ensis",
+  "variants": {
+    "berries=true": [
+    { "model": "block/cave_vines_plant_lit_1" },
+    { "model": "block/cave_vines_plant_lit_2" },
+    { "model": "block/cave_vines_plant_lit_3" }
+                    ],
+    "berries=false": { "model": "block/cave_vines_plant" }
+              }
+}

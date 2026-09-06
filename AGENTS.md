@@ -41,6 +41,11 @@ and particle textures. The source's unreferenced globe texture is omitted.
 Bushy pink petals, wildflowers & leaf litter 1.0.1 supplies four Pink Petals
 models and their shared texture. Vanilla selects all amounts and orientations;
 the source's optional Respackopts toggles are omitted.
+Cave Vines 16x 1 supplies cave vine tip/body models with randomized berries,
+their blockstates and textures, and the glow berries item model and textures.
+Its OptiFine emissive setting currently matches only glow berries; the extra
+glow requires compatible emissive-texture support. Three trailing source
+credits were moved into JSON fields, with the repairs recorded in the index.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -102,6 +107,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Better stations.zip`
 - Bushy pink petals, wildflowers & leaf litter source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Bushy pink petals, wildflowers  leaf litter.zip`
+- Cave Vines 16x source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\cave-vines-16x.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:

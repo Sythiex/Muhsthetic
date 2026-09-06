@@ -32,6 +32,7 @@ Current source releases:
 | [Better Seagrass](https://modrinth.com/resourcepack/better-seagrass) | `1.0.1` | `Better seagrass.zip` |
 | [Better stations](https://www.curseforge.com/minecraft/texture-packs/better-stations) | `May 8, 2022` | `Better stations.zip` |
 | [Bushy pink petals, wildflowers & leaf litter](https://www.curseforge.com/minecraft/texture-packs/bushy-pink-petals-wildflowers-leaf-litter) | `1.0.1` | `Bushy pink petals, wildflowers  leaf litter.zip` |
+| [Cave Vines 16x](https://www.planetminecraft.com/texture-pack/cave-vines-16x/) | `1` | `cave-vines-16x.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -210,6 +211,30 @@ this selection and are not dependencies. The four `.json.rpo` sidecars and
 fixed selection. Static checks found no missing face or particle texture
 references, incompatible model geometry, or effects on other blocks or items.
 Appearance has not been verified in-game.
+
+The Cave Vines 16x selection includes all 19 resource files related to cave vines
+and glow berries: two blockstates, eight block models, one item model, seven
+textures, and an OptiFine emissive configuration. The only omitted source files
+are `desktop.ini`, `pack.mcmeta`, and `pack.png`. All imported files differ from
+vanilla 1.21.1 and were added without collisions. Each vine section has three
+equally weighted models when bearing berries and one model without berries.
+The glow berries item uses a separate berry-only particle texture.
+
+Both source blockstates and the glow berries item model have `Made by Ensis`
+appended outside their JSON objects. These credits were moved into `credit`
+fields to make the files valid JSON; their model selection and rendering data
+are unchanged. These three repairs are recorded in the index. The other 16 files
+are copied byte-for-byte from the source.
+
+The included `optifine/emissive.properties` uses the `_e` suffix, which matches
+only the new glow berries item texture in the current compilation. This extra
+glow requires OptiFine or compatible emissive-texture support; it is separate
+from the berry-bearing blocks' normal light emission. See the
+[OptiFine emissive specification](https://github.com/sp614x/optifine/blob/master/OptiFineDoc/doc/emissive.properties).
+Static checks covered all eight block model choices and the item model, with
+no missing face or particle texture references, incompatible model geometry,
+or effects on unrelated block/item models. Appearance and emissive rendering
+have not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

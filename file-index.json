@@ -81,6 +81,11 @@
       "archive": "Bushy pink petals, wildflowers  leaf litter.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/bushy-pink-petals-wildflowers-leaf-litter",
       "version": "1.0.1"
+    },
+    "cave_vines_16x_1": {
+      "archive": "cave-vines-16x.zip",
+      "project_url": "https://www.planetminecraft.com/texture-pack/cave-vines-16x/",
+      "version": "1"
     }
   },
   "files": [
@@ -103,6 +108,16 @@
     {
       "path": "assets/minecraft/blockstates/cake.json",
       "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/blockstates/cave_vines_plant.json",
+      "source": "cave_vines_16x_1",
+      "notes": "Moved the source's trailing \"Made by Ensis\" attribution into a credit field to make the file valid JSON; model selection and rendering data are unchanged."
+    },
+    {
+      "path": "assets/minecraft/blockstates/cave_vines.json",
+      "source": "cave_vines_16x_1",
+      "notes": "Moved the source's trailing \"Made by Ensis\" attribution into a credit field to make the file valid JSON; model selection and rendering data are unchanged."
     },
     {
       "path": "assets/minecraft/blockstates/cobweb.json",
@@ -435,6 +450,38 @@
     {
       "path": "assets/minecraft/models/block/cartography_table.json",
       "source": "better_stations_2022_05_08"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_lit_1.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_lit_2.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_lit_3.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_plant_lit_1.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_plant_lit_2.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_plant_lit_3.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines_plant.json",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cave_vines.json",
+      "source": "cave_vines_16x_1"
     },
     {
       "path": "assets/minecraft/models/block/cherry_sapling.json",
@@ -1194,6 +1241,11 @@
       "source": "yojos_lushpacc_10"
     },
     {
+      "path": "assets/minecraft/models/item/glow_berries.json",
+      "source": "cave_vines_16x_1",
+      "notes": "Moved the source's trailing \"Made by Ensis\" attribution into a credit field to make the file valid JSON; model selection and rendering data are unchanged."
+    },
+    {
       "path": "assets/minecraft/models/item/glow_lichen.json",
       "source": "wild_vanilla_1_0"
     },
@@ -1284,6 +1336,10 @@
     {
       "path": "assets/minecraft/models/item/wither_rose.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/optifine/emissive.properties",
+      "source": "cave_vines_16x_1"
     },
     {
       "path": "assets/minecraft/textures/block/acacia_sapling_block.png",
@@ -1388,6 +1444,26 @@
     {
       "path": "assets/minecraft/textures/block/cartography_table.png",
       "source": "better_stations_2022_05_08"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cave_vines_berry.png",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cave_vines_lit.png",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cave_vines_plant_lit.png",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cave_vines_plant.png",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cave_vines.png",
+      "source": "cave_vines_16x_1"
     },
     {
       "path": "assets/minecraft/textures/block/chain_pot.png",
@@ -1752,6 +1828,14 @@
     {
       "path": "assets/minecraft/textures/item/allium.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/item/glow_berries_e.png",
+      "source": "cave_vines_16x_1"
+    },
+    {
+      "path": "assets/minecraft/textures/item/glow_berries.png",
+      "source": "cave_vines_16x_1"
     },
     {
       "path": "assets/minecraft/textures/item/sugar_cane.png",

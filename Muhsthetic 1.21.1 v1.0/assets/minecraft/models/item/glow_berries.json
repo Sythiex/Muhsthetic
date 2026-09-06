@@ -1,0 +1,8 @@
+{
+  "credit": "Made by Ensis",
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minecraft:item/glow_berries_e",  
+    "layer0": "minecraft:item/glow_berries"
+  }
+}
