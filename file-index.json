@@ -106,6 +106,11 @@
       "archive": "Flora Formae 1.4.zip",
       "project_url": "https://modrinth.com/resourcepack/flora-formae",
       "version": "1.4"
+    },
+    "montanas_bushier_kelp_2_0_1": {
+      "archive": "bushy_kelp.zip",
+      "project_url": "https://modrinth.com/resourcepack/montanas-bushier-kelp",
+      "version": "2.0.1"
     }
   },
   "files": [
@@ -182,6 +187,10 @@
     {
       "path": "assets/minecraft/blockstates/grass.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/kelp_plant.json",
+      "source": "montanas_bushier_kelp_2_0_1"
     },
     {
       "path": "assets/minecraft/blockstates/large_fern.json",
@@ -818,6 +827,35 @@
     {
       "path": "assets/minecraft/models/block/jungle_sapling.json",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/kelp_plant.json",
+      "source": "montanas_bushier_kelp_2_0_1",
+      "notes": "Source model retains 32 undefined #missing texture references on zero-area faces; all visible faces and particle textures resolve. Copied unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/kelp_plant2.json",
+      "source": "montanas_bushier_kelp_2_0_1",
+      "notes": "Source model retains 28 undefined #missing texture references on zero-area faces; all visible faces and particle textures resolve. Copied unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/kelp_plant3.json",
+      "source": "montanas_bushier_kelp_2_0_1",
+      "notes": "Source model retains 24 undefined #missing texture references on zero-area faces; all visible faces and particle textures resolve. Copied unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/kelp_plant4.json",
+      "source": "montanas_bushier_kelp_2_0_1",
+      "notes": "Source model retains 20 undefined #missing texture references on zero-area faces; all visible faces and particle textures resolve. Copied unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/kelp_plant5.json",
+      "source": "montanas_bushier_kelp_2_0_1",
+      "notes": "Source model retains 20 undefined #missing texture references on zero-area faces; all visible faces and particle textures resolve. Copied unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/kelp.json",
+      "source": "montanas_bushier_kelp_2_0_1"
     },
     {
       "path": "assets/minecraft/models/block/large_amethyst_bud.json",
@@ -1774,6 +1812,14 @@
     {
       "path": "assets/minecraft/textures/block/jungle_sapling_block.png",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/textures/block/kelp_side.png",
+      "source": "montanas_bushier_kelp_2_0_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/kelp_side.png.mcmeta",
+      "source": "montanas_bushier_kelp_2_0_1"
     },
     {
       "path": "assets/minecraft/textures/block/lead_knot.png",

@@ -38,6 +38,7 @@ Current source releases:
 | [3D Amethyst](https://modrinth.com/resourcepack/3d-amethyst) | `1.0` | `3D Amethyst - MC1.21.x.zip` |
 | [Cuter Cocoa](https://www.curseforge.com/minecraft/texture-packs/cuter-cocoa) | `1.2` | `Cuter Cocoa v1.2.zip` |
 | [Flora Formae](https://modrinth.com/resourcepack/flora-formae) | `1.4` | `Flora Formae 1.4.zip` |
+| [Montana's Bushier Kelp](https://modrinth.com/resourcepack/montanas-bushier-kelp) | `2.0.1` | `bushy_kelp.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -295,9 +296,25 @@ use vanilla assets. The source's other plants, optional Respackopts configuratio
 and sunflower-only version overlay are outside this selection.
 
 Static checks covered all 64 plant connection combinations, all six flower ages,
-and both item models. No missing face or particle textures, incompatible geometry,
+and the flower item model. No missing face or particle textures, incompatible geometry,
 or effects on unrelated blocks or items were found. Appearance has not been
 verified in-game.
+
+The Montana's Bushier Kelp selection includes nine unchanged source files: the
+kelp plant blockstate, one kelp tip model, five plant models, and a shared side
+texture with animation metadata. The 32-by-1056 texture contains 33 square frames
+displayed for two ticks each. The plant blockstate selects seventeen weighted
+model/rotation choices; vanilla's kelp blockstate selects the new tip model for
+every age. The core kelp textures and animations, and the kelp item, use vanilla
+assets. All nine imported files differ from vanilla 1.21.1, with no collisions.
+
+The five plant models retain 124 undefined `#missing` references, all on
+zero-area faces; individual counts are recorded in the index. Visible faces and
+block particle textures resolve correctly, and model geometry uses supported
+1.21.1 coordinates and rotations. The source's five unrelated axolotl bucket
+models, `desktop.ini`, and root metadata/icon are omitted. Static dependency,
+model selection, PNG integrity, and animation checks passed, with no effects on
+unrelated blocks or items. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
