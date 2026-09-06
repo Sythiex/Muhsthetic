@@ -40,6 +40,7 @@ Current source releases:
 | [Flora Formae](https://modrinth.com/resourcepack/flora-formae) | `1.4` | `Flora Formae 1.4.zip` |
 | [Montana's Bushier Kelp](https://modrinth.com/resourcepack/montanas-bushier-kelp) | `2.0.1` | `bushy_kelp.zip` |
 | [Nature rework V2](https://www.planetminecraft.com/texture-pack/nature-rework-v2/) | `2` | `nature-rework-v2.zip` |
+| [Rad's Lush Foliage](https://modrinth.com/resourcepack/rads-lush-foliage) | `1.0.4` | `Rad's Lush Foliage.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -336,6 +337,19 @@ Static checks covered all twenty dripstone states, four bush ages, both item
 models, and all fifteen PNGs. No missing face or particle textures, incompatible
 geometry, or effects on unrelated blocks or items were found. Appearance has
 not been verified in-game.
+
+The Rad's Lush Foliage selection includes two unchanged source models:
+`crimson_roots.json` and its shared `cross_foliage.json` parent. Both differ from
+vanilla 1.21.1 and were added without collisions. The parent adds four angled
+planes around the central crossed planes, using the existing Crimson Roots
+texture. Vanilla's blockstate selects the replacement model.
+
+The source has no replacement for the Crimson Roots item or potted variant;
+both continue using existing assets. Although other plants in the source use
+the shared parent, none of those models is imported, and a reverse dependency
+check confirms that only placed Crimson Roots are affected. Static checks found
+no missing face or particle textures or incompatible geometry. The source's
+model credit is preserved. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

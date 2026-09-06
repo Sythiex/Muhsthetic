@@ -70,6 +70,9 @@ Nature rework V2 supplies pointed dripstone models and textures, its item
 texture, and all four sweet berry bush growth stages with their shared model.
 All 27 files are copied unchanged. Vanilla blockstates select the models;
 the source has no replacement for the Sweet Berries item.
+Rad's Lush Foliage 1.0.4 supplies the Crimson Roots model and its shared
+`cross_foliage` parent, both copied unchanged. Only placed Crimson Roots are
+affected; its texture, item, and potted variant continue using existing assets.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -147,6 +150,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\nature-rework-v2.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
+- Rad's Lush Foliage source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Rad's Lush Foliage.zip`
 - Instance version and loader configuration:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\mmc-pack.json`
 - Instance logs, including `latest.log` for resource loading errors:

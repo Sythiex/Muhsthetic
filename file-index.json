@@ -116,6 +116,11 @@
       "archive": "nature-rework-v2.zip",
       "project_url": "https://www.planetminecraft.com/texture-pack/nature-rework-v2/",
       "version": "2"
+    },
+    "rads_lush_foliage_1_0_4": {
+      "archive": "Rad's Lush Foliage.zip",
+      "project_url": "https://modrinth.com/resourcepack/rads-lush-foliage",
+      "version": "1.0.4"
     }
   },
   "files": [
@@ -710,6 +715,14 @@
     {
       "path": "assets/minecraft/models/block/crimson_fungus.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/crimson_roots.json",
+      "source": "rads_lush_foliage_1_0_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/cross_foliage.json",
+      "source": "rads_lush_foliage_1_0_4"
     },
     {
       "path": "assets/minecraft/models/block/damaged_anvil.json",
