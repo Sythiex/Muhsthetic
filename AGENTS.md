@@ -14,7 +14,7 @@ weeping vines, and the corresponding potted saplings and propagules. Azaleas and
 young bamboo are outside the Vervada selection. YoJos-LushPacc! 10 supplies azalea
 and flowering azalea models and textures, including their item and potted
 variants. xksp lush plants 3.2 supplies bamboo, cactus, ordinary vines, and potted
-bamboo/cactus models and textures. Tables 3D (Aug 10, 2026) supplies enchanting
+bamboo/cactus/Crimson Roots models and textures. Tables 3D (Aug 10, 2026) supplies enchanting
 table and fletching table models and the enchanting table's side/top textures.
 3D Amethysts 1 supplies the budding amethyst model and the textures for block of
 amethyst and budding amethyst. Actually 3D Plants 1.1 supplies Nether Sprouts and
@@ -72,7 +72,8 @@ All 27 files are copied unchanged. Vanilla blockstates select the models;
 the source has no replacement for the Sweet Berries item.
 Rad's Lush Foliage 1.0.4 supplies the Crimson Roots model and its shared
 `cross_foliage` parent, both copied unchanged. Only placed Crimson Roots are
-affected; its texture, item, and potted variant continue using existing assets.
+affected; its texture and item continue using existing assets. Potted Crimson
+Roots uses xksp's model and dedicated plant/pot textures.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 

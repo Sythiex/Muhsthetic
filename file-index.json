@@ -1122,6 +1122,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/potted_crimson_roots.json",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/models/block/potted_dandelion.json",
       "source": "wild_vanilla_1_0"
     },
@@ -1824,6 +1828,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/textures/block/crimson_roots_pot.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
       "path": "assets/minecraft/textures/block/dandelion.png",
       "source": "wild_vanilla_1_0"
     },
@@ -2065,6 +2073,10 @@
     },
     {
       "path": "assets/minecraft/textures/block/pot_3d4.png",
+      "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pot_3d7.png",
       "source": "xksp_lush_plants_3_2"
     },
     {

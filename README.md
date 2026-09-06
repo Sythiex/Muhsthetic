@@ -79,8 +79,8 @@ they do not need a shared flower-pot model replacement. Azalea leaf blocks are
 outside this selection.
 
 The xksp lush plants selection covers bamboo, cactus, ordinary vines, and potted
-bamboo/cactus, including randomized models and rotations: four blockstates,
-31 block models, and 16 textures. All 51 files are copied unchanged, differ from
+bamboo/cactus/Crimson Roots, including randomized models and rotations: four
+blockstates, 32 block models, and 18 textures. All 54 files are copied unchanged, differ from
 vanilla 1.21.1, and were added without collisions. The source's bamboo blockstate
 is byte-for-byte identical to vanilla and is omitted. Vanilla item models use
 the new cactus geometry and vine texture; the bamboo item and young bamboo
@@ -88,6 +88,13 @@ shoot keep their vanilla appearances. Vanilla 1.21.1 has no potted vine block.
 The potted models inherit vanilla's `flower_pot_cross` but supply their own
 geometry and pot textures. Reference checks found no effects on other blocks
 or items.
+
+Potted Crimson Roots adds its model, `crimson_roots_pot.png`, and `pot_3d7.png`
+under the existing xksp source entry. Both textures are 16-by-16. Vanilla's
+blockstate selects the model, and its inherited dependencies resolve through
+the existing compilation and vanilla 1.21.1. Static geometry, face/particle
+texture, PNG integrity, and reverse dependency checks passed; only Potted
+Crimson Roots is affected. Appearance has not been verified in-game.
 
 The Tables 3D selection contains four unchanged source files: enchanting table
 and fletching table block models, plus the enchanting table's side and top
@@ -344,8 +351,8 @@ vanilla 1.21.1 and were added without collisions. The parent adds four angled
 planes around the central crossed planes, using the existing Crimson Roots
 texture. Vanilla's blockstate selects the replacement model.
 
-The source has no replacement for the Crimson Roots item or potted variant;
-both continue using existing assets. Although other plants in the source use
+Rad's source has no replacement for the Crimson Roots item or potted variant;
+the item uses existing assets, and xksp supplies the potted variant. Although other plants in Rad's source use
 the shared parent, none of those models is imported, and a reverse dependency
 check confirms that only placed Crimson Roots are affected. Static checks found
 no missing face or particle textures or incompatible geometry. The source's
