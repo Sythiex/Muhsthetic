@@ -76,6 +76,11 @@
       "archive": "Better stations.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/better-stations",
       "version": "May 8, 2022"
+    },
+    "bushy_pink_petals_wildflowers_leaf_litter_1_0_1": {
+      "archive": "Bushy pink petals, wildflowers  leaf litter.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/bushy-pink-petals-wildflowers-leaf-litter",
+      "version": "1.0.1"
     }
   },
   "files": [
@@ -722,6 +727,22 @@
     {
       "path": "assets/minecraft/models/block/peony_top.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/pink_petals_1.json",
+      "source": "bushy_pink_petals_wildflowers_leaf_litter_1_0_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/pink_petals_2.json",
+      "source": "bushy_pink_petals_wildflowers_leaf_litter_1_0_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/pink_petals_3.json",
+      "source": "bushy_pink_petals_wildflowers_leaf_litter_1_0_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/pink_petals_4.json",
+      "source": "bushy_pink_petals_wildflowers_leaf_litter_1_0_1"
     },
     {
       "path": "assets/minecraft/models/block/pink_tulip.json",
@@ -1571,6 +1592,10 @@
     {
       "path": "assets/minecraft/textures/block/peony.png",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/textures/block/pink_petals.png",
+      "source": "bushy_pink_petals_wildflowers_leaf_litter_1_0_1"
     },
     {
       "path": "assets/minecraft/textures/block/pink_tulip.png",

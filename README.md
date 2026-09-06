@@ -31,6 +31,7 @@ Current source releases:
 | [Actually 3D Workbenches](https://www.curseforge.com/minecraft/texture-packs/actually-3d-workbenches) | `1.0` | `§f§lActually §6§l3D §r§2Workbenches§7.zip` |
 | [Better Seagrass](https://modrinth.com/resourcepack/better-seagrass) | `1.0.1` | `Better seagrass.zip` |
 | [Better stations](https://www.curseforge.com/minecraft/texture-packs/better-stations) | `May 8, 2022` | `Better stations.zip` |
+| [Bushy pink petals, wildflowers & leaf litter](https://www.curseforge.com/minecraft/texture-packs/bushy-pink-petals-wildflowers-leaf-litter) | `1.0.1` | `Bushy pink petals, wildflowers  leaf litter.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -197,6 +198,18 @@ geometry and textures. The source's `cartography_globe.png` is unreferenced by
 any source model and is omitted. Static checks found no missing face or particle
 texture references, incompatible model geometry, or effects on other blocks or
 items. Appearance has not been verified in-game.
+
+The Bushy pink petals, wildflowers & leaf litter selection contains five unchanged
+source files: `pink_petals_1` through `pink_petals_4` block models and their shared
+`pink_petals.png` block texture. All five differ from vanilla 1.21.1 and were added
+without collisions. Vanilla's multipart blockstate adds the appropriate model
+parts for all 16 combinations of flower amounts 1–4 and the four facing directions.
+The Pink Petals item uses vanilla assets. Wildflowers and leaf litter are outside
+this selection and are not dependencies. The four `.json.rpo` sidecars and
+`respackopts.json5` only provide optional model toggles and are omitted from this
+fixed selection. Static checks found no missing face or particle texture
+references, incompatible model geometry, or effects on other blocks or items.
+Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
