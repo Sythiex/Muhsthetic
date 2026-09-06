@@ -35,6 +35,7 @@ Current source releases:
 | [Bushy pink petals, wildflowers & leaf litter](https://www.curseforge.com/minecraft/texture-packs/bushy-pink-petals-wildflowers-leaf-litter) | `1.0.1` | `Bushy pink petals, wildflowers  leaf litter.zip` |
 | [Cave Vines 16x](https://www.planetminecraft.com/texture-pack/cave-vines-16x/) | `1` | `cave-vines-16x.zip` |
 | Cave Vines 16x Complementary Shaders Fix (project link: `N/A`) | `1` | `Cave Vines 16x Complementary Shaders Fix v1.zip` |
+| [3D Amethyst](https://modrinth.com/resourcepack/3d-amethyst) | `1.0` | `3D Amethyst - MC1.21.x.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -242,6 +243,23 @@ Static checks covered all eight block model choices and the item model, with
 no missing face or particle texture references, incompatible model geometry,
 or effects on unrelated block/item models. Appearance and emissive rendering
 have not been verified in-game, including the Complementary Shaders fix.
+
+The 3D Amethyst 1.0 selection includes all ten asset files in its source ZIP:
+five block models for small/medium/large amethyst buds, amethyst cluster, and
+calibrated sculk sensor; four bud/cluster item models; and the shared 16-by-16
+`amethyst_cluster_dfx.png` texture. Only `pack.mcmeta`, `pack.png`, and
+`Selected Packs.txt` are omitted. All ten files are copied unchanged, including
+their model credits, differ from vanilla 1.21.1, and were added without collisions.
+This source is separate from the earlier `3d-amethysts.zip` selection for solid
+amethyst blocks.
+
+Vanilla blockstates select all six bud/cluster facing directions and all four
+sensor orientations across inactive, active, and cooldown phases. Vanilla's
+sensor child models inherit the new geometry and retain their appropriate
+tendril textures; its item model also inherits the replacement. Static checks
+covered all 36 model selections and the five item models, with no missing face
+or particle texture references, incompatible geometry, or effects on unrelated
+blocks or items. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

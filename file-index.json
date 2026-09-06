@@ -91,6 +91,11 @@
       "archive": "Cave Vines 16x Complementary Shaders Fix v1.zip",
       "project_url": "N/A",
       "version": "1"
+    },
+    "3d_amethyst_1_0": {
+      "archive": "3D Amethyst - MC1.21.x.zip",
+      "project_url": "https://modrinth.com/resourcepack/3d-amethyst",
+      "version": "1.0"
     }
   },
   "files": [
@@ -281,6 +286,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/amethyst_cluster.json",
+      "source": "3d_amethyst_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/anvil.json",
       "source": "hellims_3d_functional_blocks_1_0"
     },
@@ -451,6 +460,10 @@
     {
       "path": "assets/minecraft/models/block/cake/cake.json",
       "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/calibrated_sculk_sensor.json",
+      "source": "3d_amethyst_1_0"
     },
     {
       "path": "assets/minecraft/models/block/cartography_table.json",
@@ -687,6 +700,10 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/large_amethyst_bud.json",
+      "source": "3d_amethyst_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/lilac_bottom.json",
       "source": "wild_vanilla_1_0"
     },
@@ -725,6 +742,10 @@
     {
       "path": "assets/minecraft/models/block/mangrove_propagule.json",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/models/block/medium_amethyst_bud.json",
+      "source": "3d_amethyst_1_0"
     },
     {
       "path": "assets/minecraft/models/block/nether_sprouts.json",
@@ -1061,6 +1082,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/small_amethyst_bud.json",
+      "source": "3d_amethyst_1_0"
+    },
+    {
       "path": "assets/minecraft/models/block/small_dripleaf_top.json",
       "source": "vervada_enhanced_plants_1_0_6"
     },
@@ -1194,6 +1219,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/item/amethyst_cluster.json",
+      "source": "3d_amethyst_1_0"
+    },
+    {
       "path": "assets/minecraft/models/item/azalea.json",
       "source": "yojos_lushpacc_10"
     },
@@ -1259,6 +1288,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/item/large_amethyst_bud.json",
+      "source": "3d_amethyst_1_0"
+    },
+    {
       "path": "assets/minecraft/models/item/large_fern.json",
       "source": "wild_vanilla_1_0"
     },
@@ -1273,6 +1306,10 @@
     {
       "path": "assets/minecraft/models/item/lily_pad.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/medium_amethyst_bud.json",
+      "source": "3d_amethyst_1_0"
     },
     {
       "path": "assets/minecraft/models/item/orange_tulip.json",
@@ -1313,6 +1350,10 @@
     {
       "path": "assets/minecraft/models/item/short_grass.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/item/small_amethyst_bud.json",
+      "source": "3d_amethyst_1_0"
     },
     {
       "path": "assets/minecraft/models/item/sugar_cane.json",
@@ -1365,6 +1406,10 @@
     {
       "path": "assets/minecraft/textures/block/amethyst_block.png",
       "source": "3d_amethysts_1"
+    },
+    {
+      "path": "assets/minecraft/textures/block/amethyst_cluster_dfx.png",
+      "source": "3d_amethyst_1_0"
     },
     {
       "path": "assets/minecraft/textures/block/azalea_plant.png",

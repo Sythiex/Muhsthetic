@@ -50,6 +50,11 @@ remain attributed to `cave_vines_16x_1`, including both blockstates and the glow
 berries item model. Keep `"credit": "Made by Ensis"` inside those three JSON
 objects. Their index notes record moving the original source's trailing credits
 into valid JSON fields without changing rendering data.
+3D Amethyst 1.0 supplies small, medium, and large amethyst bud and cluster block
+and item models, the calibrated sculk sensor block model, and their shared
+amethyst texture. Vanilla selects all facing directions and sensor phases.
+This is a separate source from `3d-amethysts.zip`, which supplies the solid
+amethyst blocks above.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -115,6 +120,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\cave-vines-16x.zip`
 - Cave Vines 16x Complementary Shaders Fix source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Cave Vines 16x Complementary Shaders Fix v1.zip`
+- 3D Amethyst source archive (buds, cluster, and calibrated sculk sensor):
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\3D Amethyst - MC1.21.x.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
