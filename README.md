@@ -37,6 +37,7 @@ Current source releases:
 | Cave Vines 16x Complementary Shaders Fix (project link: `N/A`) | `1` | `Cave Vines 16x Complementary Shaders Fix v1.zip` |
 | [3D Amethyst](https://modrinth.com/resourcepack/3d-amethyst) | `1.0` | `3D Amethyst - MC1.21.x.zip` |
 | [Cuter Cocoa](https://www.curseforge.com/minecraft/texture-packs/cuter-cocoa) | `1.2` | `Cuter Cocoa v1.2.zip` |
+| [Flora Formae](https://modrinth.com/resourcepack/flora-formae) | `1.4` | `Flora Formae 1.4.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -279,6 +280,24 @@ copied unchanged. Static checks covered all twelve age/facing combinations and
 60 model choices, with no missing face or particle textures, remaining
 incompatible geometry, or effects on unrelated blocks or items. Appearance,
 including the adjusted rotations, has not been verified in-game.
+
+The Flora Formae selection contains fourteen unchanged source files for Chorus
+Plant and Chorus Flower: one plant blockstate, nine block models, and four
+16-by-16 leaf/petal textures. The models include a shared bushy flower parent,
+living/dead flower variants, and horizontal/vertical chorus leaves with their
+parents. All fourteen differ from vanilla 1.21.1 and were added without collisions.
+
+The plant's multipart blockstate retains vanilla branch geometry and adds
+randomized leaves where the relevant sides are unconnected. Vanilla's flower
+blockstate selects the living model at ages 0–4 and the dead model at age 5;
+the flower item inherits the living model. Other textures and the plant item
+use vanilla assets. The source's other plants, optional Respackopts configuration,
+and sunflower-only version overlay are outside this selection.
+
+Static checks covered all 64 plant connection combinations, all six flower ages,
+and both item models. No missing face or particle textures, incompatible geometry,
+or effects on unrelated blocks or items were found. Appearance has not been
+verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

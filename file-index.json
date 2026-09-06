@@ -101,6 +101,11 @@
       "archive": "Cuter Cocoa v1.2.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/cuter-cocoa",
       "version": "1.2"
+    },
+    "flora_formae_1_4": {
+      "archive": "Flora Formae 1.4.zip",
+      "project_url": "https://modrinth.com/resourcepack/flora-formae",
+      "version": "1.4"
     }
   },
   "files": [
@@ -133,6 +138,10 @@
       "path": "assets/minecraft/blockstates/cave_vines.json",
       "source": "cave_vines_16x_1",
       "notes": "Moved the source's trailing \"Made by Ensis\" attribution into a credit field to make the file valid JSON; model selection and rendering data are unchanged."
+    },
+    {
+      "path": "assets/minecraft/blockstates/chorus_plant.json",
+      "source": "flora_formae_1_4"
     },
     {
       "path": "assets/minecraft/blockstates/cobweb.json",
@@ -407,6 +416,10 @@
       "source": "3d_amethysts_1"
     },
     {
+      "path": "assets/minecraft/models/block/bushy_chorus_flower.json",
+      "source": "flora_formae_1_4"
+    },
+    {
       "path": "assets/minecraft/models/block/cactus_s.json",
       "source": "xksp_lush_plants_3_2"
     },
@@ -517,6 +530,38 @@
     {
       "path": "assets/minecraft/models/block/chipped_anvil.json",
       "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_flower_dead.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_flower.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_leaves_down.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_leaves_horizontal_down.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_leaves_horizontal_up.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_leaves_side.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_leaves_up.json",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/models/block/chorus_leaves_vertical.json",
+      "source": "flora_formae_1_4"
     },
     {
       "path": "assets/minecraft/models/block/cobweb.json",
@@ -1601,6 +1646,22 @@
     {
       "path": "assets/minecraft/textures/block/cherry_sapling1.png",
       "source": "vervada_enhanced_plants_1_0_6"
+    },
+    {
+      "path": "assets/minecraft/textures/block/chorus_flower_dead_petals.png",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/textures/block/chorus_flower_petals.png",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/textures/block/chorus_leaves_horizontal.png",
+      "source": "flora_formae_1_4"
+    },
+    {
+      "path": "assets/minecraft/textures/block/chorus_leaves_vertical.png",
+      "source": "flora_formae_1_4"
     },
     {
       "path": "assets/minecraft/textures/block/cobweb.png",

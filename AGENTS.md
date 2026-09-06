@@ -59,6 +59,9 @@ Cuter Cocoa 1.2 supplies the cocoa blockstate, fifteen models across all three
 growth stages, and six textures. Six models have their unsupported +30/-30 degree
 element rotations adjusted to +22.5/-22.5 for vanilla 1.21.1; index notes record
 these changes. The cocoa beans item uses vanilla assets.
+Flora Formae 1.4 supplies the chorus plant blockstate, randomized chorus leaf
+models, living/dead chorus flower models, and four leaf/petal textures. All
+fourteen files are copied unchanged; remaining dependencies use vanilla assets.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -128,6 +131,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\3D Amethyst - MC1.21.x.zip`
 - Cuter Cocoa source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Cuter Cocoa v1.2.zip`
+- Flora Formae source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Flora Formae 1.4.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
