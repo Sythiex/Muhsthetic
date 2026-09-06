@@ -30,6 +30,7 @@ Current source releases:
 | [3D crops Revamped](https://modrinth.com/resourcepack/3d-crops) | `3` | `3D crops Revamped.zip` |
 | [Actually 3D Workbenches](https://www.curseforge.com/minecraft/texture-packs/actually-3d-workbenches) | `1.0` | `§f§lActually §6§l3D §r§2Workbenches§7.zip` |
 | [Better Seagrass](https://modrinth.com/resourcepack/better-seagrass) | `1.0.1` | `Better seagrass.zip` |
+| [Better stations](https://www.curseforge.com/minecraft/texture-packs/better-stations) | `May 8, 2022` | `Better stations.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -187,6 +188,15 @@ undefined `#missing`. All eight are zero-area side faces of their horizontal
 base planes. This source issue is recorded in the index; all other face and
 particle texture references resolve, and the geometry passes 1.21.1 static
 checks. Appearance has not been verified in-game.
+
+The Better stations selection contains three unchanged source files: the
+Cartography Table block model, `cartography_table.png`, and
+`cartography_table_particle.png`. All three differ from vanilla 1.21.1 and were
+added without collisions. Vanilla's blockstate and item model select the new
+geometry and textures. The source's `cartography_globe.png` is unreferenced by
+any source model and is omitted. Static checks found no missing face or particle
+texture references, incompatible model geometry, or effects on other blocks or
+items. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

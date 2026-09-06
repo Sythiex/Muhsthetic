@@ -71,6 +71,11 @@
       "archive": "Better seagrass.zip",
       "project_url": "https://modrinth.com/resourcepack/better-seagrass",
       "version": "1.0.1"
+    },
+    "better_stations_2022_05_08": {
+      "archive": "Better stations.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/better-stations",
+      "version": "May 8, 2022"
     }
   },
   "files": [
@@ -421,6 +426,10 @@
     {
       "path": "assets/minecraft/models/block/cake/cake.json",
       "source": "better_3d_8_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/cartography_table.json",
+      "source": "better_stations_2022_05_08"
     },
     {
       "path": "assets/minecraft/models/block/cherry_sapling.json",
@@ -1350,6 +1359,14 @@
     {
       "path": "assets/minecraft/textures/block/cactus_pot.png",
       "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cartography_table_particle.png",
+      "source": "better_stations_2022_05_08"
+    },
+    {
+      "path": "assets/minecraft/textures/block/cartography_table.png",
+      "source": "better_stations_2022_05_08"
     },
     {
       "path": "assets/minecraft/textures/block/chain_pot.png",

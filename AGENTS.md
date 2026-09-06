@@ -36,6 +36,8 @@ selection.
 Better Seagrass 1.0.1 supplies seagrass and both tall seagrass models, plus their
 shared base texture. They use vanilla animations and retain eight undefined
 texture references on zero-area faces, recorded in the index.
+Better stations (May 8, 2022) supplies the Cartography Table model and its main
+and particle textures. The source's unreferenced globe texture is omitted.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -93,6 +95,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\§f§lActually §6§l3D §r§2Workbenches§7.zip`
 - Better Seagrass source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Better seagrass.zip`
+- Better stations source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Better stations.zip`
 - Vanilla 1.21.1 client archive, containing default assets under `assets/minecraft/`:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.21.1\minecraft-1.21.1-client.jar`
 - Instance version and loader configuration:
