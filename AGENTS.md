@@ -77,6 +77,11 @@ Roots uses xksp's model and dedicated plant/pot textures.
 Wild Vanilla Glow Lichen Complementary Shaders Fix 1 supplies only the
 replacement `glow_lichen.png` texture. The unchanged blockstate and block/item
 models remain attributed to Wild Vanilla 1.0. The fix source's project URL is `N/A`.
+XeKr flowers leaves model pack 1.1 supplies six log blockstates, twelve branch
+variant models, and two shared parents for oak, spruce, birch, jungle, acacia,
+and dark oak. All twenty files are copied unchanged. Only upright logs select
+branch variants; horizontal logs and items retain vanilla models. Both shared
+parents retain a nonexistent `block/end` particle texture, recorded in the index.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -158,6 +163,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Rad's Lush Foliage.zip`
 - Wild Vanilla Glow Lichen Complementary Shaders Fix source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip`
+- XeKr flowers leaves model pack source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\XeKr flowers leaves model pack19plus1.1.zip`
 - Instance version and loader configuration:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\mmc-pack.json`
 - Instance logs, including `latest.log` for resource loading errors:

@@ -42,6 +42,7 @@ Current source releases:
 | [Nature rework V2](https://www.planetminecraft.com/texture-pack/nature-rework-v2/) | `2` | `nature-rework-v2.zip` |
 | [Rad's Lush Foliage](https://modrinth.com/resourcepack/rads-lush-foliage) | `1.0.4` | `Rad's Lush Foliage.zip` |
 | Wild Vanilla Glow Lichen Complementary Shaders Fix (project link: `N/A`) | `1` | `Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip` |
+| [XeKr flowers leaves model pack](https://www.curseforge.com/minecraft/texture-packs/xekr-flowers-leaves-model-pack) | `1.1` | `XeKr flowers leaves model pack19plus1.1.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -370,6 +371,26 @@ The replacement texture differs from vanilla 1.21.1 and retains its original
 32-by-32 dimensions. PNG integrity and model texture-reference checks passed;
 all other compilation asset bytes are preserved. The Complementary shader
 appearance has not been verified in-game.
+
+The XeKr flowers leaves model pack selection contains twenty unchanged files
+for oak, spruce, birch, jungle, acacia, and dark oak logs: six blockstates,
+twelve branch variant models, and two shared parent models. These are all the
+source's log assets, differ from vanilla 1.21.1, and were added without collisions.
+They use vanilla log textures. The source has no replacements for stripped logs,
+all-bark wood, mangrove/cherry logs, or Nether stems/hyphae.
+
+Each upright log has nine weighted choices: the vanilla model at weight 40,
+and two branch models at four rotations each with weight 1. Branch variants
+therefore account for one sixth of the selection weight. Horizontal logs and
+item models retain their vanilla appearances. Static checks covered all eighteen
+axis states, 66 model choices, and six item models, with no effects on unrelated
+blocks or items and no incompatible geometry.
+
+Both shared parents incorrectly set `particle` to the nonexistent `block/end`
+texture instead of the `#end` alias. This source issue is preserved and noted in
+their index entries; all twelve branch models inherit it. Their `end` and `side`
+texture placeholders are overridden by the species models, and all visible
+faces resolve correctly. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.

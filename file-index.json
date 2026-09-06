@@ -126,12 +126,25 @@
       "archive": "Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip",
       "project_url": "N/A",
       "version": "1"
+    },
+    "xekr_flowers_leaves_model_pack_1_1": {
+      "archive": "XeKr flowers leaves model pack19plus1.1.zip",
+      "project_url": "https://www.curseforge.com/minecraft/texture-packs/xekr-flowers-leaves-model-pack",
+      "version": "1.1"
     }
   },
   "files": [
     {
+      "path": "assets/minecraft/blockstates/acacia_log.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
       "path": "assets/minecraft/blockstates/allium.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/birch_log.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/blockstates/blue_orchid.json",
@@ -188,6 +201,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/blockstates/dark_oak_log.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
       "path": "assets/minecraft/blockstates/dead_bush.json",
       "source": "wild_vanilla_1_0"
     },
@@ -202,6 +219,10 @@
     {
       "path": "assets/minecraft/blockstates/grass.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/jungle_log.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/blockstates/kelp_plant.json",
@@ -222,6 +243,10 @@
     {
       "path": "assets/minecraft/blockstates/lily_pad.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/blockstates/oak_log.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/blockstates/oxeye_daisy.json",
@@ -296,6 +321,10 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/blockstates/spruce_log.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
       "path": "assets/minecraft/blockstates/sunflower.json",
       "source": "wild_vanilla_1_0"
     },
@@ -314,6 +343,14 @@
     {
       "path": "assets/minecraft/blockstates/wither_rose.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/acacia_log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/acacia_log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/models/block/acacia_sapling.json",
@@ -414,6 +451,14 @@
     {
       "path": "assets/minecraft/models/block/big_fern_top.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/birch_log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/birch_log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/models/block/birch_sapling.json",
@@ -746,6 +791,14 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/dark_oak_log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/dark_oak_log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
       "path": "assets/minecraft/models/block/dark_oak_sapling.json",
       "source": "vervada_enhanced_plants_1_0_6"
     },
@@ -852,6 +905,14 @@
       "source": "vervada_enhanced_plants_1_0_6"
     },
     {
+      "path": "assets/minecraft/models/block/jungle_log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/jungle_log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
       "path": "assets/minecraft/models/block/jungle_sapling.json",
       "source": "vervada_enhanced_plants_1_0_6"
     },
@@ -921,6 +982,16 @@
       "source": "wild_vanilla_1_0"
     },
     {
+      "path": "assets/minecraft/models/block/log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1",
+      "notes": "Source parent uses the nonexistent block/end texture for particles instead of the #end alias. All twelve log variant children inherit this missing particle reference; visible faces resolve through their end/side overrides. Copied unchanged."
+    },
+    {
+      "path": "assets/minecraft/models/block/log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1",
+      "notes": "Source parent uses the nonexistent block/end texture for particles instead of the #end alias. All twelve log variant children inherit this missing particle reference; visible faces resolve through their end/side overrides. Copied unchanged."
+    },
+    {
       "path": "assets/minecraft/models/block/loom.json",
       "source": "better_3d_8_1"
     },
@@ -952,6 +1023,14 @@
     {
       "path": "assets/minecraft/models/block/null.json",
       "source": "wild_vanilla_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/oak_log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/oak_log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/models/block/oak_sapling.json",
@@ -1309,6 +1388,14 @@
     {
       "path": "assets/minecraft/models/block/smithing_table.json",
       "source": "hellims_3d_functional_blocks_1_0"
+    },
+    {
+      "path": "assets/minecraft/models/block/spruce_log_3d1.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
+    },
+    {
+      "path": "assets/minecraft/models/block/spruce_log_3d2.json",
+      "source": "xekr_flowers_leaves_model_pack_1_1"
     },
     {
       "path": "assets/minecraft/models/block/spruce_sapling.json",
