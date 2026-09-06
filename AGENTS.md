@@ -82,6 +82,10 @@ variant models, and two shared parents for oak, spruce, birch, jungle, acacia,
 and dark oak. All twenty files are copied unchanged. Only upright logs select
 branch variants; horizontal logs and items retain vanilla models. Both shared
 parents retain a nonexistent `block/end` particle texture, recorded in the index.
+Improved bamboo 1.0 full pack supplies the Bamboo Shoot model and stage-zero
+texture, both copied unchanged. Its leaf texture is vanilla-identical and omitted.
+Only Bamboo Shoots are affected; the model retains fifteen undefined texture
+references on hidden or zero-area faces, recorded in the index.
 Source packs target different Minecraft versions; use vanilla 1.21.1 when
 checking compatibility and dependencies.
 
@@ -165,6 +169,8 @@ exist before using them on another machine.
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip`
 - XeKr flowers leaves model pack source archive:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\XeKr flowers leaves model pack19plus1.1.zip`
+- Improved bamboo source archive:
+  `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\minecraft\resourcepacks\better bamboo.zip`
 - Instance version and loader configuration:
   `C:\Users\Sythiex\AppData\Roaming\PrismLauncher\instances\1.21.1 Base\mmc-pack.json`
 - Instance logs, including `latest.log` for resource loading errors:

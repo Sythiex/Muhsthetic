@@ -131,6 +131,11 @@
       "archive": "XeKr flowers leaves model pack19plus1.1.zip",
       "project_url": "https://www.curseforge.com/minecraft/texture-packs/xekr-flowers-leaves-model-pack",
       "version": "1.1"
+    },
+    "improved_bamboo_1_0_full_pack": {
+      "archive": "better bamboo.zip",
+      "project_url": "https://modrinth.com/resourcepack/improved-bamboo",
+      "version": "1.0 full pack"
     }
   },
   "files": [
@@ -383,6 +388,11 @@
     {
       "path": "assets/minecraft/models/block/bamboo_large_leaves.json",
       "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/models/block/bamboo_sapling.json",
+      "source": "improved_bamboo_1_0_full_pack",
+      "notes": "Copied unchanged. Retains fifteen undefined #missing texture references: six on zero-area leaf edges, six on a cuboid enclosed inside the stem, two on internal stem bottoms, and one on the base underside against the supporting block. Visible outer faces and particles resolve correctly."
     },
     {
       "path": "assets/minecraft/models/block/bamboo_small_leaves.json",
@@ -1766,6 +1776,10 @@
     {
       "path": "assets/minecraft/textures/block/bamboo_pot.png",
       "source": "xksp_lush_plants_3_2"
+    },
+    {
+      "path": "assets/minecraft/textures/block/bamboo_stage0.png",
+      "source": "improved_bamboo_1_0_full_pack"
     },
     {
       "path": "assets/minecraft/textures/block/blue_orchid.png",

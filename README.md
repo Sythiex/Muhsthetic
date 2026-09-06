@@ -43,6 +43,7 @@ Current source releases:
 | [Rad's Lush Foliage](https://modrinth.com/resourcepack/rads-lush-foliage) | `1.0.4` | `Rad's Lush Foliage.zip` |
 | Wild Vanilla Glow Lichen Complementary Shaders Fix (project link: `N/A`) | `1` | `Wild Vanilla Glow Lichen Complementary Shaders Fix v1.zip` |
 | [XeKr flowers leaves model pack](https://www.curseforge.com/minecraft/texture-packs/xekr-flowers-leaves-model-pack) | `1.1` | `XeKr flowers leaves model pack19plus1.1.zip` |
+| [Improved bamboo](https://modrinth.com/resourcepack/improved-bamboo) | `1.0 full pack` | `better bamboo.zip` |
 
 The Better 3D selection covers cake, composter, End Portal Frame, hay bale, loom,
 and TNT, including their block state variants and item models. These models use
@@ -391,6 +392,22 @@ texture instead of the `#end` alias. This source issue is preserved and noted in
 their index entries; all twelve branch models inherit it. Their `end` and `side`
 texture placeholders are overridden by the species models, and all visible
 faces resolve correctly. Appearance has not been verified in-game.
+
+The Improved bamboo selection contains two unchanged files for Bamboo Shoots:
+`models/block/bamboo_sapling.json` and `textures/block/bamboo_stage0.png`.
+Both differ from vanilla 1.21.1 and were added without collisions. The source's
+`bamboo_singleleaf.png` dependency is byte-for-byte identical to vanilla and is
+omitted. Vanilla's bamboo sapling blockstate selects the model. Dependency checks
+confirm that only Bamboo Shoots are affected; mature bamboo, potted bamboo, and
+the bamboo item keep their existing assets. Other source files are outside the
+selection and were not imported.
+
+Static checks passed for the model's ten elements, sixty faces, supported
+rotations, particle texture, and the 16-by-16 PNG's integrity. The source model
+retains fifteen undefined `#missing` references: six on zero-area leaf edges,
+six on an enclosed stem cuboid, two on internal stem bottoms, and one on the
+base underside against its supporting block. These are recorded in the index;
+visible outer faces resolve correctly. Appearance has not been verified in-game.
 
 The index records origin, not a guarantee that a file is still identical to its
 source. Optional file `notes` describe local changes to tracked assets.
